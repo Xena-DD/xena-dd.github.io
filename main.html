@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WoW Classic 1.15 Talent Calculator</title>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+
+<body>
+	<h3 id="talent-points-spent"></h3>
+	<h1>Choose a class</h1>
+	<div class="calculator-splash-inner">
+		<div class="icon" data-class-name="class1">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class2">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class3">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class4">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class5">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class6">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class7">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class8">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+		<div class="icon" data-class-name="class9">
+			<ins></ins>
+			<del></del>
+			<a></a>
+		</div>
+	</div>
+	<!--talent trees-->
+	<div id="s4" class="calculator-tree-container" style="left: 334px;">
+		<!--Spec 1-->
+		<div class="calculator-tree" data-spec-name="" data-tab="0">
+			<div class="calculator-tree-box">
+				<div class="calculator-tree-header">
+					<div class="calculator-tree-header-icon"></div>
+					<b></b>
+					<span class="calculator-tree-header-points">0 / 51</span>
+				</div>
+				<div class="calculator-tree-talents-background"></div>
+				<div class="calculator-tree-talents">
+
+				</div>
+			</div>
+			<div class="calculator-tree-reset">Reset</div>
+		</div>
+		<!--Spec 2-->
+		<div class="calculator-tree" data-spec-name="" data-tab="1">
+			<div class="calculator-tree-box">
+				<div class="calculator-tree-header">
+					<div class="calculator-tree-header-icon"></div>
+					<b></b>
+					<span class="calculator-tree-header-points">0 / 51</span>
+				</div>
+				<div class="calculator-tree-talents-background"></div>
+				<div class="calculator-tree-talents">
+				</div>
+			</div>
+			<div class="calculator-tree-reset">Reset</div>
+		</div>
+		<!--Spec 3-->
+		<div class="calculator-tree" data-spec-name="" data-tab="2">
+			<div class="calculator-tree-box">
+				<div class="calculator-tree-header">
+					<div class="calculator-tree-header-icon"></div>
+					<b></b>
+					<span class="calculator-tree-header-points">0 / 51</span>
+				</div>
+				<div class="calculator-tree-talents-background"></div>
+				<div class="calculator-tree-talents">
+				</div>
+			</div>
+			<div class="calculator-tree-reset">Reset</div>
+		</div>
+	</div>
+	<div class="calculator-tree-reset-all">Reset all</div>
+	<!-- talent tooltip template-->
+	<div class="tooltip-template" data-id="0" style="position: absolute; visibility: hidden; max-width: 320px; display: none;">
+		<table >
+			<tbody>
+				<tr>
+					<td>
+						<table class="table-1" style="width: 100%;">
+							<tbody>
+								<tr>
+									<!--talent name-->
+									<td class="tooltip-name">
+										<b></b>
+									</td>
+									<!--talent rank-->
+									<td class="tooltip-rank">
+										<b></b>
+									</td>
+								</tr>
+								<tr>
+									<td class="tooltip-talent">
+										Talent
+									</td>
+								</tr>
+								<tr class="optional-row1" style="display:none">
+									<td class="tooltip-resource-cost"></td>
+									<td class="tooltip-range"></td>
+								</tr>
+								<tr class="optional-row2" style="display:none">
+									<td class="tooltip-cast-time"></td>
+									<td class="tooltip-cooldown"></td>
+								</tr>
+								<!--requirements 1-->
+								<tr class="tooltip-requirements-1">
+									<td colspan="2">
+									</td>
+								</tr>
+								<!-- requirements 2 -->
+								<!-- ... -->
+							</tbody>
+						</table>
+						<table class="table-2" style="width: 100%;">
+							<tbody>
+								<tr>
+									<!--tools-->
+									<td>
+										<!--totem -->
+										<!-- //... -->
+										<!--description-->
+										<div class="tooltip-description"></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script>
+	initialize();
+</script>
+
+</html>

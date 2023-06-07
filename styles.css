@@ -1,0 +1,1018 @@
+body{
+    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    background-color: #0a0a0a;
+}
+
+h1,h2,h3{
+    color: #9d9d9d;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.calculator-splash-inner {
+    width: 410px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #333333;
+    padding: 5px;
+}
+
+.calculator-tree {
+    background: #000;
+    border-radius: 6px;
+    border: 2px solid #3b3b3b;
+    flex: 1 0 auto;
+    margin: 0 3px;
+    max-width: 328px;
+    width: 240px
+}
+
+.calculator-tree-box {
+    overflow: hidden;
+    position: relative
+}
+
+.calculator-tree-container {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    position: static;
+    max-height: 1000px;
+}
+
+.calculator-tree-header {
+    align-items: center;
+    color: #ccc;
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative
+}
+
+.calculator-tree-header-points {
+    flex: 1 1 auto;
+    font-weight: bold;
+    text-align: right
+}
+
+.calculator-tree-header-icon {
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+}
+
+.calculator-tree-talents {
+    margin: 0 auto;
+    position: relative;
+    width: 240px;
+    height: 430px;
+}
+
+.calculator-tree-talents-background {
+    box-shadow: inset 0 0 20px 10px #000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.calculator-tree-talent {
+    filter: grayscale(100%);
+    position: absolute;
+    cursor: pointer;
+}
+
+/* We need this to waterfall the z-indexes to make the arrows appear above and below the connected talents properly */
+.calculator-tree-talent[data-row="0"] {
+    z-index: 20;
+}
+.calculator-tree-talent[data-row="1"] {
+    z-index: 18;
+}
+.calculator-tree-talent[data-row="2"] {
+    z-index: 16;
+}
+.calculator-tree-talent[data-row="3"] {
+    z-index: 14;
+}
+.calculator-tree-talent[data-row="4"] {
+    z-index: 12;
+}
+.calculator-tree-talent[data-row="5"] {
+    z-index: 10;
+}
+.calculator-tree-talent[data-row="6"] {
+    z-index: 8;
+}
+
+.calculator-tree-talent-arrow[data-row="0"]{
+    z-index: 19;
+}
+.calculator-tree-talent-arrow[data-row="1"]{
+    z-index: 17;
+}
+.calculator-tree-talent-arrow[data-row="2"]{
+    z-index: 15;
+}
+.calculator-tree-talent-arrow[data-row="3"]{
+    z-index: 13;
+}
+.calculator-tree-talent-arrow[data-row="4"]{
+    z-index: 11;
+}
+.calculator-tree-talent-arrow[data-row="5"]{
+    z-index: 9;
+}
+
+/*Z-index ajustments for talents with left and right arrows attached to them, could be done with a less hacky way*/
+#talent-1103 {
+    z-index: 17 !important;
+}
+#talent-5314,#talent-2115 {
+    z-index: 10 !important;
+}
+
+.calculator-tree-talent[data-col="0"] {
+    left: 8px
+}
+
+.calculator-tree-talent[data-col="1"] {
+    left: 68px
+}
+
+.calculator-tree-talent[data-col="2"] {
+    left: 128px
+}
+
+.calculator-tree-talent[data-col="3"] {
+    left: 188px
+}
+
+.calculator-tree-talent[data-row="0"] {
+    top: 8px
+}
+
+.calculator-tree-talent[data-row="1"] {
+    top: 68px
+}
+
+.calculator-tree-talent[data-row="2"] {
+    top: 128px
+}
+
+.calculator-tree-talent[data-row="3"] {
+    top: 188px
+}
+
+.calculator-tree-talent[data-row="4"] {
+    top: 248px
+}
+
+.calculator-tree-talent[data-row="5"] {
+    top: 308px
+}
+
+.calculator-tree-talent[data-row="6"] {
+    top: 368px
+}
+
+.calculator-tree-talent[data-enabled] {
+    filter: none
+}
+
+.calculator-tree-talent[data-enabled] .calculator-tree-talent-points {
+    border-color: rgba(64,191,64,0.8);
+    color: #fff;
+    display: inline !important
+}
+
+.calculator-tree-talent[data-enabled] .icon a {
+    border: 1px solid rgba(64,191,64,0.8);
+    border-radius: 5px !important;
+    height: 34px;
+    width: 34px
+}
+
+.calculator-tree-talent[data-enabled].calculator-at-max .calculator-tree-talent-points {
+    border-color: rgba(255,209,0,0.8)
+}
+
+.calculator-tree-talent[data-enabled].calculator-at-max .icon a {
+    border-color: rgba(255,209,0,0.8)
+}
+
+.calculator-tree-talent-points {
+    background-color: #000;
+    border: #333;
+    border-radius: 3px !important;
+    bottom: -5px;
+    color: #787878;
+    font-size: 11px;
+    padding: 0 3px;
+    position: absolute;
+    right: -5px;
+    user-select: none
+}
+
+.calculator-tree-talent[data-enabled] .calculator-tree-talent-points {
+    color: rgba(64,191,64,0.8)
+}
+
+.calculator-tree-talent[data-enabled].calculator-at-max .calculator-tree-talent-points {
+    color: rgba(255,209,0,0.8)
+}
+
+.calculator-tree-talent-arrow {
+    position: absolute
+}
+
+.calculator-tree-talent-arrow div {
+    position: absolute
+}
+
+.calculator-tree-talent-arrow-down {
+    width: 15px;
+    background-image: url("arrows/arrow_down.png");
+    background-position: bottom center
+}
+
+.calculator-tree-talent-arrow-down[data-lit] {
+    background-image: url("arrows/arrow_down_lit.png");
+}
+
+.calculator-tree-talent-arrow-down[data-col="0"] {
+    left: 22.5px
+}
+
+.calculator-tree-talent-arrow-down[data-col="1"] {
+    left: 82.5px
+}
+
+.calculator-tree-talent-arrow-down[data-col="2"] {
+    left: 142.5px
+}
+
+.calculator-tree-talent-arrow-down[data-col="3"] {
+    left: 202.5px
+}
+
+.calculator-tree-talent-arrow-down[data-row="0"] {
+    top: 48px
+}
+
+.calculator-tree-talent-arrow-down[data-row="1"] {
+    top: 108px
+}
+
+.calculator-tree-talent-arrow-down[data-row="2"] {
+    top: 168px
+}
+
+.calculator-tree-talent-arrow-down[data-row="3"] {
+    top: 228px
+}
+
+.calculator-tree-talent-arrow-down[data-row="4"] {
+    top: 288px
+}
+
+.calculator-tree-talent-arrow-down[data-row="5"] {
+    top: 348px
+}
+
+.calculator-tree-talent-arrow-down[data-row="6"] {
+    top: 408px
+}
+
+.calculator-tree-talent-arrow-down[data-size="1"] {
+    height: 27px
+}
+
+.calculator-tree-talent-arrow-down[data-size="2"] {
+    height: 87px
+}
+
+.calculator-tree-talent-arrow-down[data-size="3"] {
+    height: 147px
+}
+
+.calculator-tree-talent-arrow-down[data-size="4"] {
+    height: 207px
+}
+
+.calculator-tree-talent-arrow-down[data-size="5"] {
+    height: 267px
+}
+
+.calculator-tree-talent-arrow-down[data-size="6"] {
+    height: 327px
+}
+
+.calculator-tree-talent-arrow-left {
+    height: 15px;
+    background-image: url("");
+    background-position: left center
+}
+
+.calculator-tree-talent-arrow-left[data-lit] {
+    background-image: url("");
+}
+
+.calculator-tree-talent-arrow-left[data-row="0"] {
+    top: 22.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="1"] {
+    top: 82.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="2"] {
+    top: 142.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="3"] {
+    top: 202.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="4"] {
+    top: 262.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="5"] {
+    top: 322.5px
+}
+
+.calculator-tree-talent-arrow-left[data-row="6"] {
+    top: 382.5px
+}
+
+.calculator-tree-talent-arrow-left[data-col="1"] {
+    left: 44px
+}
+
+.calculator-tree-talent-arrow-left[data-col="2"] {
+    left: 104px
+}
+
+.calculator-tree-talent-arrow-left[data-col="3"] {
+    left: 164px
+}
+
+.calculator-tree-talent-arrow-left[data-size="1"] {
+    width: 26.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="0"] {
+    top: 22.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="1"] {
+    top: 82.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="2"] {
+    top: 142.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="3"] {
+    top: 202.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="4"] {
+    top: 262.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="5"] {
+    top: 322.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-row="6"] {
+    top: 382.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-col="1"] {
+    left: 24px
+}
+
+.calculator-tree-talent-arrow-left-down[data-width="1"] {
+    width: 48.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-width="2"] {
+    width: 108.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-width="3"] {
+    width: 168.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-height="1"] {
+    height: 45.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-height="2"] {
+    height: 105.5px
+}
+
+.calculator-tree-talent-arrow-left-down[data-height="3"] {
+    height: 165.5px
+}
+
+.calculator-tree-talent-arrow-left-down div:first-child {
+    background-image: url("");
+    background-position: left center;
+    top: 0;
+    height: 15px;
+    left: 0;
+    right: 0
+}
+
+.calculator-tree-talent-arrow-left-down div:last-child {
+    background-image: url("");
+    background-position: bottom center;
+    top: 15px;
+    bottom: -7.5px;
+    left: 0;
+    width: 15px
+}
+
+.calculator-tree-talent-arrow-left-down div:last-child[data-lit] {
+    background-image: url("arrows/arrow_down_lit.png")
+}
+
+.calculator-tree-talent-arrow-left-down[data-lit] div:first-child {
+    background-image: url("")
+}
+
+.calculator-tree-talent-arrow-left-down[data-lit] div:last-child {
+    background-image: url("arrows/arrow_down_lit.png")
+}
+
+.calculator-tree-talent-arrow-right {
+    height: 15px;
+    background-image: url("arrows/arrow_right.png");
+    background-position: right center;
+}
+
+.calculator-tree-talent-arrow-right[data-lit] {
+    background-image: url("arrows/arrow_right_lit.png");
+}
+
+.calculator-tree-talent-arrow-right[data-row="0"] {
+    top: 22.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="1"] {
+    top: 82.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="2"] {
+    top: 142.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="3"] {
+    top: 202.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="4"] {
+    top: 262.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="5"] {
+    top: 322.5px;
+}
+
+.calculator-tree-talent-arrow-right[data-row="6"] {
+    top: 382.5px
+}
+
+.calculator-tree-talent-arrow-right[data-col="0"] {
+    left: 49px
+}
+
+.calculator-tree-talent-arrow-right[data-col="1"] {
+    left: 109px
+}
+
+.calculator-tree-talent-arrow-right[data-col="2"] {
+    left: 169px
+}
+
+.calculator-tree-talent-arrow-right[data-col="3"] {
+    left: 229px
+}
+
+.calculator-tree-talent-arrow-right[data-size="1"] {
+    width: 26.5px
+}
+
+.calculator-tree-talent-arrow-right[data-size="2"] {
+    width: 86.5px
+}
+
+.calculator-tree-talent-arrow-right[data-size="3"] {
+    width: 146.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="0"] {
+    top: 22.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="1"] {
+    top: 82.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="2"] {
+    top: 142.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="3"] {
+    top: 202.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="4"] {
+    top: 262.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="5"] {
+    top: 322.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-row="6"] {
+    top: 382.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-col="0"] {
+    left: 49px
+}
+
+.calculator-tree-talent-arrow-right-down[data-col="1"] {
+    left: 109px
+}
+
+.calculator-tree-talent-arrow-right-down[data-col="2"] {
+    left: 169px
+}
+
+.calculator-tree-talent-arrow-right-down[data-col="3"] {
+    left: 229px
+}
+
+.calculator-tree-talent-arrow-right-down[data-width="1"] {
+    width: 48.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-width="2"] {
+    width: 108.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-width="3"] {
+    width: 168.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-height="1"] {
+    height: 45.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-height="2"] {
+    height: 105.5px
+}
+
+.calculator-tree-talent-arrow-right-down[data-height="3"] {
+    height: 165.5px
+}
+
+.calculator-tree-talent-arrow-right-down div:first-child {
+    background-image: url("arrows/arrow_rightdown.png");
+    background-position: right center;
+    top: 0;
+    height: 15px;
+    left: 0;
+    right: 0
+}
+
+.calculator-tree-talent-arrow-right-down div:last-child {
+    background-image: url("arrows/arrow_down.png");
+    background-position: bottom center;
+    top: 15px;
+    bottom: -7.5px;
+    right: 0;
+    width: 15px
+}
+
+.calculator-tree-talent-arrow-right-down div:last-child[data-lit] {
+    background-image: url("arrows/arrow_down_lit.png");
+}
+
+.calculator-tree-talent-arrow-right-down[data-lit] div:first-child {
+    background-image: url("arrows/arrow_rightdown_lit.png");
+}
+
+.calculator-tree-talent-arrow-right-down[data-lit] div:last-child {
+    background-image: url("arrows/arrow_down_lit.png");
+}
+
+.calculator-tree-reset.fa:before {
+    padding-right: 0.75em
+}
+
+.icon {
+    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    pointer-events: none;
+    position: relative;
+    z-index: 0;
+}
+
+.icon ins {
+    height: 36px;
+    width: 36px;
+    left: 4px;
+    top: 4px;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,1);
+}
+
+.icon ins {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+
+.icon del {
+    height: 34px;
+    width: 34px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+}
+.icon del{
+    background-repeat: no-repeat;
+    display: block;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    z-index: 10;
+}
+
+.icon{
+    height: 44px;
+    width: 44px;
+    
+}
+
+.icon a {
+    height: 35px;
+    width: 35px;
+    border-radius: 4px !important;
+    pointer-events: auto;
+}
+
+.icon a:hover{
+    box-shadow: inset 0px 0px 4px 2px rgba(140,186,255,1);
+}
+
+.icon a {
+    display: block;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    z-index: 20;
+}
+
+.tooltip-template {
+    z-index: 1000;
+    background-color: #111222cf;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow:3px 3px 8px 1px rgba(0,0,0,1);
+    color: #fff;
+    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    padding: 5px;
+}
+
+.tooltip-template table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tooltip-template td {
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+}
+
+.tooltip-name b{
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+}
+
+.tooltip-rank{
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.tooltip-rank b {
+    color: #9d9d9d !important;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.tooltip-talent {
+    color: #9d9d9d !important;
+}
+
+.tooltip-rank,.tooltip-range,.tooltip-cooldown{
+    float: right;
+}
+.tooltip-description{
+    font-size: 12px;
+    color:#ffd100;
+    line-height: 17px;
+}
+
+.calculator-splash-inner [data-class-name="class1"] ins{
+    background-image: url("icons/class_druid.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class2"] ins{
+    background-image: url("icons/class_hunter.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class3"] ins{
+    background-image: url("icons/class_mage.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class4"] ins{
+    background-image: url("icons/class_paladin.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class5"] ins{
+    background-image: url("icons/class_priest.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class6"] ins{
+    background-image: url("icons/class_rogue.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class7"] ins{
+    background-image: url("icons/class_shaman.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class8"] ins{
+    background-image: url("icons/class_warlock.jpg");
+}
+
+.calculator-splash-inner [data-class-name="class9"] ins{
+    background-image: url("icons/class_warrior.jpg");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="balance"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/druid_balance.jpg");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="balance"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_nature_starfall.png");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="feral combat"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/druid_feral.jpg");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="feral combat"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_racial_bearform.png");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/druid_restoration.jpg");
+}
+
+[data-class-name="druid"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_nature_healingtouch.png");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="beast mastery"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/hunter_beastmastery.jpg");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="beast mastery"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_hunter_beasttaming.png");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="marksmanship"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/hunter_marksmanship.jpg");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="marksmanship"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_marksmanship.png");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="survival"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/hunter_survival.jpg");
+}
+
+[data-class-name="hunter"] .calculator-tree[data-spec-name="survival"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_hunter_swiftstrike.png");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="arcane"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/mage_arcane.jpg");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="arcane"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_magicalsentry.png");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="fire"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/mage_fire.jpg");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="fire"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_fire_firebolt02.png");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="frost"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/mage_frost.jpg");
+}
+
+[data-class-name="mage"] .calculator-tree[data-spec-name="frost"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_frost_frostbolt02.png");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="holy"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/paladin_holy.jpg");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="holy"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_holybolt.png");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="protection"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/paladin_protection.jpg");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="protection"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_devotionaura.png");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="retribution"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/paladin_retribution.jpg");
+}
+
+[data-class-name="paladin"] .calculator-tree[data-spec-name="retribution"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_auraoflight.png");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="discipline"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/priest_discipline.jpg");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="discipline"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_wordfortitude.png");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="holy"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/priest_holy.jpg");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="holy"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_holy_holybolt.png");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="shadow"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/priest_shadow.jpg");
+}
+
+[data-class-name="priest"] .calculator-tree[data-spec-name="shadow"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_shadow_shadowwordpain.png");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="assassination"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/rogue_assassination.jpg");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="assassination"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_rogue_eviscerate.png");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="combat"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/rogue_combat.jpg");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="combat"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_backstab.png");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="subtlety"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/rogue_subtlety.jpg");
+}
+
+[data-class-name="rogue"] .calculator-tree[data-spec-name="subtlety"] .calculator-tree-header-icon{
+    background-image: url("icons/ability_stealth.png");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="elemental"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/shaman_elemental.jpg");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="elemental"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_lightning_lightningbolt01.png");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="enhancement"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/shaman_enhancement.jpg");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="enhancement"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_nature_lightningshield.png");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/shaman_restoration.jpg");
+}
+
+[data-class-name="shaman"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_nature_magicimmunity.png");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="affliction"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/warlock_affliction.jpg");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="affliction"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_shadow_deathcoil.png");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="demonology"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/warlock_demonology.jpg");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="demonology"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_shadow_metamorphosis.png");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="destruction"] .calculator-tree-talents-background{
+    background-image: url("backgrounds/warlock_destruction.jpg");
+}
+
+[data-class-name="warlock"] .calculator-tree[data-spec-name="destruction"] .calculator-tree-header-icon{
+    background-image: url("icons/spell_shadow_rainoffire.png");
+}
+
+.calculator-tree-reset{
+    box-sizing: border-box;
+    border: 2px solid #3b3b3b;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #CCCCCC;
+
+}
+.calculator-tree-reset:hover,.calculator-tree-reset-all:hover{
+    color: #FFFFFF;
+}
+
+.calculator-tree-reset-all {
+    box-sizing: border-box;
+    border: 2px solid #3b3b3b;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 235px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+    color: #CCCCCC;
+}

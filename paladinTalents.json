@@ -1,0 +1,2183 @@
+{
+  "talentTree":
+  [
+    {
+      "id": 4101,
+      "talentTab": 0,
+      "talentName": "Divine Strength",
+      "icon":"icons/ability_golemthunderclap.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20262,
+        "spellRank2": 20263,
+        "spellRank3": 20264,
+        "spellRank4": 20265,
+        "spellRank5" : 20266
+        }
+    },
+    {
+      "id": 4102,
+      "talentTab": 0,
+      "talentName": "Divine Intellect",
+      "icon":"icons/spell_nature_sleep.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20257,
+        "spellRank2": 20258,
+        "spellRank3": 20259,
+        "spellRank4": 20260,
+        "spellRank5" : 20261
+        }
+    },
+    {
+      "id": 4103,
+      "talentTab": 0,
+      "talentName": "Spiritual Focus",
+      "icon":"icons/spell_arcane_blink.png",
+      "position": [ 1, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20205,
+        "spellRank2": 20206,
+        "spellRank3": 20207,
+        "spellRank4": 20208,
+        "spellRank5" : 20209
+        }
+    },
+    {
+      "id": 4104,
+      "talentTab": 0,
+      "talentName": "Improved Seal of Righteousness",
+      "icon":"icons/ability_thunderbolt.png",
+      "position": [ 1, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20224,
+        "spellRank2": 20225,
+        "spellRank3": 20330,
+        "spellRank4": 20331,
+        "spellRank5" : 20332
+        }
+    },
+    {
+      "id": 4105,
+      "talentTab": 0,
+      "talentName": "Healing Light",
+      "icon":"icons/spell_holy_holybolt.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20237,
+        "spellRank2": 20238,
+        "spellRank3": 20239,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4106,
+      "talentTab": 0,
+      "talentName": "Healing Light",
+      "icon":"icons/spell_holy_holybolt.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20237,
+        "spellRank2": 20238,
+        "spellRank3": 20239,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4107,
+      "talentTab": 0,
+      "talentName": "Consecration",
+      "icon":"icons/spell_holy_innerfire.png",
+      "position": [ 2, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 26573,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4108,
+      "talentTab": 0,
+      "talentName": "Improved Lay on Hands",
+      "icon":"icons/spell_holy_layonhands.png",
+      "position": [ 2, 2 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20234,
+        "spellRank2": 20235,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4109,
+      "talentTab": 0,
+      "talentName": "Unyielding Faith",
+      "icon":"icons/spell_holy_unyieldingfaith.png",
+      "position": [ 2, 3 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 9453,
+        "spellRank2": 25836,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4110,
+      "talentTab": 0,
+      "talentName": "Illumination",
+      "icon":"icons/spell_holy_greaterheal.png",
+      "position": [ 3, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20210,
+        "spellRank2": 20212,
+        "spellRank3": 20213,
+        "spellRank4": 20214,
+        "spellRank5" : 20215
+        }
+    },
+    {
+      "id": 4111,
+      "talentTab": 0,
+      "talentName": "Improved Blessing of Wisdom",
+      "icon":"icons/spell_holy_sealofwisdom.png",
+      "position": [ 3, 2 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20244,
+        "spellRank2": 20245,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4112,
+      "talentTab": 0,
+      "talentName": "Divine Favor",
+      "icon":"icons/spell_holy_heal.png",
+      "position": [ 4, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20216,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1": 4110
+    },
+    {
+      "id": 4113,
+      "talentTab": 0,
+      "talentName": "Lasting Judgement",
+      "icon":"icons/spell_holy_healingaura.png",
+      "position": [ 4, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20359,
+        "spellRank2": 20360,
+        "spellRank3": 20361,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4114,
+      "talentTab": 0,
+      "talentName": "Holy Power",
+      "icon":"icons/spell_holy_power.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 5923,
+        "spellRank2": 5924,
+        "spellRank3": 5925,
+        "spellRank4": 5926,
+        "spellRank5" : 25829
+        }
+    },
+    {
+      "id": 4115,
+      "talentTab": 0,
+      "talentName": "Holy Shock",
+      "icon":"icons/spell_holy_searinglight.png",
+      "position": [ 6, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20473,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":4112
+    },
+    {
+      "id": 4201,
+      "talentTab": 1,
+      "talentName": "Improved Devotion Aura",
+      "icon":"icons/spell_holy_devotionaura.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20138,
+        "spellRank2": 20139,
+        "spellRank3": 20140,
+        "spellRank4": 20141,
+        "spellRank5" : 20142
+        }
+    },
+    {
+      "id": 4202,
+      "talentTab": 1,
+      "talentName": "Redoubt",
+      "icon":"icons/ability_defend.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20127,
+        "spellRank2": 20130,
+        "spellRank3": 20135,
+        "spellRank4": 20136,
+        "spellRank5" : 20137
+        }
+    },
+    {
+      "id": 4203,
+      "talentTab": 1,
+      "talentName": "Precision",
+      "icon":"icons/ability_rogue_ambush.png",
+      "position": [ 1, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20189,
+        "spellRank2": 20192,
+        "spellRank3": 20193,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4204,
+      "talentTab": 1,
+      "talentName": "Guardian's Favor",
+      "icon":"icons/spell_holy_sealofprotection.png",
+      "position": [ 1, 1 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20174,
+        "spellRank2": 20175,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4205,
+      "talentTab": 1,
+      "talentName": "Toughness",
+      "icon":"icons/spell_holy_devotion.png",
+      "position": [ 1, 3 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20143,
+        "spellRank2": 20144,
+        "spellRank3": 20145,
+        "spellRank4": 20146,
+        "spellRank5" : 20147
+        }
+    },
+    {
+      "id": 4206,
+      "talentTab": 1,
+      "talentName": "Blessing of Kings",
+      "icon":"icons/spell_magic_magearmor.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20217,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4207,
+      "talentTab": 1,
+      "talentName": "Improved Righteous Fury",
+      "icon":"icons/spell_holy_sealoffury.png",
+      "position": [ 2, 1 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20468,
+        "spellRank2": 20469,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4208,
+      "talentTab": 1,
+      "talentName": "Shield Specialization",
+      "icon":"icons/inv_shield_06.png",
+      "position": [ 2, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20148,
+        "spellRank2": 20149,
+        "spellRank3": 20150,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":4202
+    },
+    {
+      "id": 4209,
+      "talentTab": 1,
+      "talentName": "Anticipation",
+      "icon":"icons/spell_magic_lesserinvisibilty.png",
+      "position": [ 2, 3 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20096,
+        "spellRank2": 20097,
+        "spellRank3": 20098,
+        "spellRank4": 20099,
+        "spellRank5" : 20100
+        }
+    },
+    {
+      "id": 4210,
+      "talentTab": 1,
+      "talentName": "Improved Hammer of Justice",
+      "icon":"icons/spell_holy_sealofmight.png",
+      "position": [ 3, 1 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20487,
+        "spellRank2": 20488,
+        "spellRank3": 20489,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4211,
+      "talentTab": 1,
+      "talentName": "Improved Concentration Aura",
+      "icon":"icons/spell_holy_mindsooth.png",
+      "position": [ 3, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20254,
+        "spellRank2": 20255,
+        "spellRank3": 20256,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4212,
+      "talentTab": 1,
+      "talentName": "Indomitable Defender",
+      "icon":"icons/spell_holy_greaterblessingofsanctuary.png",
+      "position": [ 4, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 33042,
+        "spellRank2": 33043,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4213,
+      "talentTab": 1,
+      "talentName": "Blessing of Sanctuary",
+      "icon":"icons/spell_nature_lightningshield.png",
+      "position": [ 4, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20911,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4214,
+      "talentTab": 1,
+      "talentName": "Reckoning",
+      "icon":"icons/spell_holy_blessingofstrength.png",
+      "position": [ 4, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20177,
+        "spellRank2": 20179,
+        "spellRank3": 20181,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4215,
+      "talentTab": 1,
+      "talentName": "Spell Warding",
+      "icon":"icons/spell_holy_improvedresistanceauras.png",
+      "position": [ 5, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 33044,
+        "spellRank2": 33045,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4216,
+      "talentTab": 1,
+      "talentName": "One-Handed Weapon Specialization",
+      "icon":"icons/inv_sword_20.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20196,
+        "spellRank2": 20197,
+        "spellRank3": 20198,
+        "spellRank4": 20199,
+        "spellRank5" : 20200
+        }
+    },
+    {
+      "id": 4217,
+      "talentTab": 1,
+      "talentName": "Holy Shield",
+      "icon":"icons/spell_holy_blessingofprotection.png",
+      "position": [ 6, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20925,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":4213
+    },
+    {
+      "id": 4301,
+      "talentTab": 2,
+      "talentName": "Improved Blessing of Might",
+      "icon":"icons/spell_holy_fistofjustice.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20042,
+        "spellRank2": 20045,
+        "spellRank3": 20046,
+        "spellRank4": 20047,
+        "spellRank5" : 20048
+        }
+    },
+    {
+      "id": 4302,
+      "talentTab": 2,
+      "talentName": "Benediction",
+      "icon":"icons/spell_frost_windwalkon.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20101,
+        "spellRank2": 20102,
+        "spellRank3": 20103,
+        "spellRank4": 20104,
+        "spellRank5" : 20105
+        }
+    },
+    {
+      "id": 4303,
+      "talentTab": 2,
+      "talentName": "Improved Judgement",
+      "icon":"icons/spell_holy_righteousfury.png",
+      "position": [ 1, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 25956,
+        "spellRank2": 25957,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4304,
+      "talentTab": 2,
+      "talentName": "Improved Seal of the Crusader",
+      "icon":"icons/spell_holy_holysmite.png",
+      "position": [ 1, 1 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20335,
+        "spellRank2": 20336,
+        "spellRank3": 20337,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4305,
+      "talentTab": 2,
+      "talentName": "Deflection",
+      "icon":"icons/ability_parry.png",
+      "position": [ 1, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20060,
+        "spellRank2": 20061,
+        "spellRank3": 20062,
+        "spellRank4": 20063,
+        "spellRank5" : 20064
+        }
+    },
+    {
+      "id": 4306,
+      "talentTab": 2,
+      "talentName": "Vindication",
+      "icon":"icons/spell_holy_vindication.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 9452,
+        "spellRank2": 26016,
+        "spellRank3": 26021,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4307,
+      "talentTab": 2,
+      "talentName": "Conviction",
+      "icon":"icons/spell_holy_retributionaura.png",
+      "position": [ 2, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20117,
+        "spellRank2": 20118,
+        "spellRank3": 20119,
+        "spellRank4": 20120,
+        "spellRank5" : 20121
+        }
+    },
+    {
+      "id": 4308,
+      "talentTab": 2,
+      "talentName": "Seal of Command",
+      "icon":"icons/ability_warrior_innerrage.png",
+      "position": [ 2, 2 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20375,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4309,
+      "talentTab": 2,
+      "talentName": "Pursuit of Justice",
+      "icon":"icons/spell_holy_persuitofjustice.png",
+      "position": [ 2, 3 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 26022,
+        "spellRank2": 26023,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4310,
+      "talentTab": 2,
+      "talentName": "Eye for an Eye",
+      "icon":"icons/spell_holy_eyeforaneye.png",
+      "position": [ 3, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 9799,
+        "spellRank2": 25988,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4311,
+      "talentTab": 2,
+      "talentName": "Eye for an Eye",
+      "icon":"icons/spell_holy_eyeforaneye.png",
+      "position": [ 3, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 9799,
+        "spellRank2": 25988,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4312,
+      "talentTab": 2,
+      "talentName": "Improved Retribution Aura",
+      "icon":"icons/spell_holy_auraoflight.png",
+      "position": [ 3, 2 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20091,
+        "spellRank2": 20092,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4313,
+      "talentTab": 2,
+      "talentName": "Two-Handed Weapon Specialization",
+      "icon":"icons/inv_hammer_04.png",
+      "position": [ 4, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 20111,
+        "spellRank2": 20112,
+        "spellRank3": 20113,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4314,
+      "talentTab": 2,
+      "talentName": "Sanctity Aura",
+      "icon":"icons/spell_holy_mindvision.png",
+      "position": [ 4, 2 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20218,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4315,
+      "talentTab": 2,
+      "talentName": "Vengeance",
+      "icon":"icons/ability_racial_avatar.png",
+      "position": [ 5, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 20049,
+        "spellRank2": 20056,
+        "spellRank3": 20057,
+        "spellRank4": 20058,
+        "spellRank5" : 20059
+        },
+      "prereqTalent1": 4307
+    },
+    {
+      "id": 4316,
+      "talentTab": 2,
+      "talentName": "Repentance",
+      "icon":"icons/spell_holy_prayerofhealing.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 20066,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 4317,
+      "talentTab": 2,
+      "talentName": "Crusader Strike",
+      "icon":"icons/spell_holy_crusaderstrike.png",
+      "position": [ 6, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 33046,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    }
+  ],
+  "talentSpells":
+  [
+    {
+      "id": 20262,
+      "spellName": "Divine Strength",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Strength by 2%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20263,
+      "spellName": "Divine Strength",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Strength by 4%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20264,
+      "spellName": "Divine Strength",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Strength by 6%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20265,
+      "spellName": "Divine Strength",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Strength by 8%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20266,
+      "spellName": "Divine Strength",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Strength by 10%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20257,
+      "spellName": "Divine Intellect",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your total Intellect by 2%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20258,
+      "spellName": "Divine Intellect",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your total Intellect by 4%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20259,
+      "spellName": "Divine Intellect",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your total Intellect by 6%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20260,
+      "spellName": "Divine Intellect",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your total Intellect by 8%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20261,
+      "spellName": "Divine Intellect",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your total Intellect by 10%.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "id": 20205,
+      "spellName": "Spiritual Focus",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage."
+    },
+    {
+      "id": 20206,
+      "spellName": "Spiritual Focus",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives your Flash of Light and Holy Light spells a 28% chance to not lose casting time when you take damage."
+    },
+    {
+      "id": 20207,
+      "spellName": "Spiritual Focus",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives your Flash of Light and Holy Light spells a 42% chance to not lose casting time when you take damage."
+    },
+    {
+      "id": 20208,
+      "spellName": "Spiritual Focus",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives your Flash of Light and Holy Light spells a 56% chance to not lose casting time when you take damage."
+    },
+    {
+      "id": 20209,
+      "spellName": "Spiritual Focus",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives your Flash of Light and Holy Light spells a 70% chance to not lose casting time when you take damage."
+    },
+    {
+      "id": 20224,
+      "spellName": "Improved Seal of Righteousness",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 3%."
+    },
+    {
+      "id": 20225,
+      "spellName": "Improved Seal of Righteousness",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 6%."
+    },
+    {
+      "id": 20330,
+      "spellName": "Improved Seal of Righteousness",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 9%."
+    },
+    {
+      "id": 20331,
+      "spellName": "Improved Seal of Righteousness",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 12%."
+    },
+    {
+      "id": 20332,
+      "spellName": "Improved Seal of Righteousness",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 15%."
+    },
+    {
+      "id": 20237,
+      "spellName": "Healing Light",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount healed by your Holy Light and Flash of Light spells by 4%."
+    },
+    {
+      "id": 20238,
+      "spellName": "Healing Light",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount healed by your Holy Light and Flash of Light spells by 8%."
+    },
+    {
+      "id": 20239,
+      "spellName": "Healing Light",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount healed by your Holy Light and Flash of Light spells by 12%."
+    },
+    {
+      "id": 26573,
+      "spellName": "Consecration",
+      "spellRank": 1,
+      "resourceCost": "135 Mana",
+      "cooldown": "8 sec",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Consecrates the land beneath Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area."
+    },
+    {
+      "id": 20234,
+      "spellName": "Improved Lay on Hands",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the target of your Lay on Hands spell a 15% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by 10 min."
+    },
+    {
+      "id": 20235,
+      "spellName": "Improved Lay on Hands",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the target of your Lay on Hands spell a 30% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by 20 min."
+    },
+    {
+      "id": 9453,
+      "spellName": "Unyielding Faith",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your chance to resist Fear and Disorient effects by an additional 5%."
+    },
+    {
+      "id": 25836,
+      "spellName": "Unyielding Faith",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your chance to resist Fear and Disorient effects by an additional 10%."
+    },
+    {
+      "id": 20210,
+      "spellName": "Illumination",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell."
+    },
+    {
+      "id": 20212,
+      "spellName": "Illumination",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell."
+    },
+    {
+      "id": 20213,
+      "spellName": "Illumination",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell."
+    },
+    {
+      "id": 20214,
+      "spellName": "Illumination",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell."
+    },
+    {
+      "id": 20215,
+      "spellName": "Illumination",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
+    },
+    {
+      "id": 20244,
+      "spellName": "Improved Blessing of Wisdom",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the effect of your Blessing of Wisdom spell by 10%."
+    },
+    {
+      "id": 20245,
+      "spellName": "Improved Blessing of Wisdom",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the effect of your Blessing of Wisdom spell by 20%."
+    },
+    {
+      "id": 20216,
+      "spellName": "Divine Favor",
+      "spellRank": 1,
+      "resourceCost": "4% of base Mana",
+      "cooldown": "2 min",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance."
+    },
+    {
+      "id": 20359,
+      "spellName": "Lasting Judgement",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 10 sec."
+    },
+    {
+      "id": 20360,
+      "spellName": "Lasting Judgement",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 20 sec."
+    },
+    {
+      "id": 20361,
+      "spellName": "Lasting Judgement",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 30 sec."
+    },
+    {
+      "id": 5923,
+      "spellName": "Holy Power",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the critical effect chance of your Holy spells by 1%."
+    },
+    {
+      "id": 5924,
+      "spellName": "Holy Power",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the critical effect chance of your Holy spells by 2%."
+    },
+    {
+      "id": 5925,
+      "spellName": "Holy Power",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the critical effect chance of your Holy spells by 3%."
+    },
+    {
+      "id": 5926,
+      "spellName": "Holy Power",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the critical effect chance of your Holy spells by 4%."
+    },
+    {
+      "id": 25829,
+      "spellName": "Holy Power",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the critical effect chance of your Holy spells by 5%."
+    },
+    {
+      "id": 20473,
+      "spellName": "Holy Shock",
+      "spellRank": 1,
+      "resourceCost": "225 Mana",
+      "cooldown": "30 sec",
+      "castTime": "Instant",
+      "range": "20 yd range",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally."
+    },
+    {
+      "id": 20473,
+      "spellName": "Holy Shock",
+      "spellRank": 1,
+      "resourceCost": "225 Mana",
+      "cooldown": "30 sec",
+      "castTime": "Instant",
+      "range": "20 yd range",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally."
+    },
+    {
+      "id": 20138,
+      "spellName": "Improved Devotion Aura",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the armor bonus of your Devotion Aura by 8%."
+    },
+    {
+      "id": 20139,
+      "spellName": "Improved Devotion Aura",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the armor bonus of your Devotion Aura by 16%."
+    },
+    {
+      "id": 20140,
+      "spellName": "Improved Devotion Aura",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the armor bonus of your Devotion Aura by 24%."
+    },
+    {
+      "id": 20141,
+      "spellName": "Improved Devotion Aura",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the armor bonus of your Devotion Aura by 32%."
+    },
+    {
+      "id": 20142,
+      "spellName": "Improved Devotion Aura",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the armor bonus of your Devotion Aura by 40%."
+    },
+    {
+      "id": 20127,
+      "spellName": "Redoubt",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 6%. Lasts 10 sec or 5 blocks."
+    },
+    {
+      "id": 20130,
+      "spellName": "Redoubt",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 12%. Lasts 10 sec or 5 blocks."
+    },
+    {
+      "id": 20135,
+      "spellName": "Redoubt",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 18%. Lasts 10 sec or 5 blocks."
+    },
+    {
+      "id": 20136,
+      "spellName": "Redoubt",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 24%. Lasts 10 sec or 5 blocks."
+    },
+    {
+      "id": 20137,
+      "spellName": "Redoubt",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 30%. Lasts 10 sec or 5 blocks."
+    },
+    {
+      "id": 20189,
+      "spellName": "Precision",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your chance to hit with melee weapons by 1%."
+    },
+    {
+      "id": 20192,
+      "spellName": "Precision",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your chance to hit with melee weapons by 2%."
+    },
+    {
+      "id": 20193,
+      "spellName": "Precision",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your chance to hit with melee weapons by 3%."
+    },
+    {
+      "id": 20174,
+      "spellName": "Guardian's Favor",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the cooldown of your Blessing of Protection by 60 sec and increases the duration of your Blessing of Freedom by 3 sec."
+    },
+    {
+      "id": 20175,
+      "spellName": "Guardian's Favor",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the cooldown of your Blessing of Protection by 120 sec and increases the duration of your Blessing of Freedom by 6 sec."
+    },
+    {
+      "id": 20143,
+      "spellName": "Toughness",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your armor value from items by 2%."
+    },
+    {
+      "id": 20144,
+      "spellName": "Toughness",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your armor value from items by 4%."
+    },
+    {
+      "id": 20145,
+      "spellName": "Toughness",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your armor value from items by 6%."
+    },
+    {
+      "id": 20146,
+      "spellName": "Toughness",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your armor value from items by 8%."
+    },
+    {
+      "id": 20147,
+      "spellName": "Toughness",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your armor value from items by 10%."
+    },
+    {
+      "id": 20217,
+      "spellName": "Blessing of Kings",
+      "spellRank": 0,
+      "resourceCost": "8% of base Mana",
+      "cooldown": "",
+      "castTime": "Instant",
+      "range": "30 yd range",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Places a Blessing on the friendly target, increasing total stats by 10% for 5 min. Players may only have one Blessing on them per Paladin at any one time."
+    },
+    {
+      "id": 20468,
+      "spellName": "Improved Righteous Fury",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount of threat generated by your Righteous Fury spell by 25%."
+    },
+    {
+      "id": 20469,
+      "spellName": "Improved Righteous Fury",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount of threat generated by your Righteous Fury spell by 50%."
+    },
+    {
+      "id": 20148,
+      "spellName": "Shield Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount of damage absorbed by your shield by 10%."
+    },
+    {
+      "id": 20149,
+      "spellName": "Shield Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount of damage absorbed by your shield by 20%."
+    },
+    {
+      "id": 20150,
+      "spellName": "Shield Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the amount of damage absorbed by your shield by 30%."
+    },
+    {
+      "id": 20096,
+      "spellName": "Anticipation",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Defense skill by 5."
+    },
+    {
+      "id": 20097,
+      "spellName": "Anticipation",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Defense skill by 10."
+    },
+    {
+      "id": 20098,
+      "spellName": "Anticipation",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Defense skill by 15."
+    },
+    {
+      "id": 20099,
+      "spellName": "Anticipation",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Defense skill by 20."
+    },
+    {
+      "id": 20100,
+      "spellName": "Anticipation",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Defense skill by 25."
+    },
+    {
+      "id": 20487,
+      "spellName": "Improved Hammer of Justice",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Decreases the cooldown of your Hammer of Justice spell by 5 sec."
+    },
+    {
+      "id": 20488,
+      "spellName": "Improved Hammer of Justice",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Decreases the cooldown of your Hammer of Justice spell by 10 sec."
+    },
+    {
+      "id": 20489,
+      "spellName": "Improved Hammer of Justice",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Decreases the cooldown of your Hammer of Justice spell by 15 sec."
+    },
+    {
+      "id": 20254,
+      "spellName": "Improved Concentration Aura",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the effect of your Concentration Aura by an additional 5% and gives all group members affected by the aura an additional 5% chance to resist Silence and Interrupt effects"
+    },
+    {
+      "id": 20255,
+      "spellName": "Improved Concentration Aura",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the effect of your Concentration Aura by an additional 10% and gives all group members affected by the aura an additional 10% chance to resist Silence and Interrupt effects"
+    },
+    {
+      "id": 20256,
+      "spellName": "Improved Concentration Aura",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the effect of your Concentration Aura by an additional 15% and gives all group members affected by the aura an additional 15% chance to resist Silence and Interrupt effects"
+    },
+    {
+      "id": 33042,
+      "spellName": "Indomitable Defender",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"While Righteous Fury is active, all physical damage taken is reduced by 4%."
+    },
+    {
+      "id": 33043,
+      "spellName": "Indomitable Defender",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"While Righteous Fury is active, all physical damage taken is reduced by 8%."
+    },
+    {
+      "id": 20911,
+      "spellName": "Blessing of Sanctuary",
+      "spellRank": 1,
+      "resourceCost": "60 Mana",
+      "cooldown": "",
+      "castTime": "Instant",
+      "range": "30 yd range",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 5 min. In addition, when the target blocks a melee attack the attacker will take 14 Holy damage. Players may only have one Blessing on them per Paladin at any one time."
+    },
+    {
+      "id": 20177,
+      "spellName": "Reckoning",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After blocking, parrying or dodging an attack, the next 2 weapong swings within 8 sec will generate an additional attack."
+    },
+    {
+      "id": 20179,
+      "spellName": "Reckoning",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After blocking, parrying or dodging an attack, the next 3 weapong swings within 8 sec will generate an additional attack."
+    },
+    {
+      "id": 20181,
+      "spellName": "Reckoning",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"After blocking, parrying or dodging an attack, the next 4 weapong swings within 8 sec will generate an additional attack."
+    },
+    {
+      "id": 33044,
+      "spellName": "Spell Absorption",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"All spell damage taken is reduced by 5% of your spell damage and 15% of all spell damage caused against you will be returned as Mana."
+    },
+    {
+      "id": 33045,
+      "spellName": "Spell Absorption",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"All spell damage taken is reduced by 10% of your spell damage and 30% of all spell damage caused against you will be returned as Mana."
+    },
+    {
+      "id": 20196,
+      "spellName": "One-Handed Weapon Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with one-handed melee weapons by 2% and increases your chance to parry with one-handed melee weapons by 1%."
+    },
+    {
+      "id": 20197,
+      "spellName": "One-Handed Weapon Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with one-handed melee weapons by 4% and increases your chance to parry with one-handed melee weapons by 2%."
+    },
+    {
+      "id": 20198,
+      "spellName": "One-Handed Weapon Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with one-handed melee weapons by 6% and increases your chance to parry with one-handed melee weapons by 3%."
+    },
+    {
+      "id": 20199,
+      "spellName": "One-Handed Weapon Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with one-handed melee weapons by 8% and increases your chance to parry with one-handed melee weapons by 4%."
+    },
+    {
+      "id": 20200,
+      "spellName": "One-Handed Weapon Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with one-handed melee weapons by 10% and increases your chance to parry with one-handed melee weapons by 5%."
+    },
+    {
+      "id": 20925,
+      "spellName": "Holy Shield",
+      "spellRank": 1,
+      "resourceCost": "75 Mana",
+      "cooldown": "10 sec",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases chance to block by 30% and your block value by 100% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 50% additional threat. Each block expends a charge. 4 charges."
+    },
+    {
+      "id": 20042,
+      "spellName": "Improved Blessing of Might",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Blessing of Might by 4%."
+    },
+    {
+      "id": 20045,
+      "spellName": "Improved Blessing of Might",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Blessing of Might by 8%."
+    },
+    {
+      "id": 20046,
+      "spellName": "Improved Blessing of Might",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Blessing of Might by 12%."
+    },
+    {
+      "id": 20047,
+      "spellName": "Improved Blessing of Might",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Blessing of Might by 16%."
+    },
+    {
+      "id": 20048,
+      "spellName": "Improved Blessing of Might",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Blessing of Might by 20%."
+    },
+    {
+      "id": 20101,
+      "spellName": "Benediction",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the Mana cost of your Judgement and Seal spells by 3%."
+    },
+    {
+      "id": 20102,
+      "spellName": "Benediction",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the Mana cost of your Judgement and Seal spells by 6%."
+    },
+    {
+      "id": 20103,
+      "spellName": "Benediction",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the Mana cost of your Judgement and Seal spells by 9%."
+    },
+    {
+      "id": 20104,
+      "spellName": "Benediction",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the Mana cost of your Judgement and Seal spells by 12%."
+    },
+    {
+      "id": 20105,
+      "spellName": "Benediction",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Reduces the Mana cost of your Judgement and Seal spells by 15%."
+    },
+    {
+      "id": 25956,
+      "spellName": "Improved Judgement",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Decreases the cooldown of your Judgement spell by 1 sec."
+    },
+    {
+      "id": 25957,
+      "spellName": "Improved Judgement",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Decreases the cooldown of your Judgement spell by 2 sec."
+    },
+    {
+      "id": 20335,
+      "spellName": "Improved Seal of the Crusader",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 5%."
+    },
+    {
+      "id": 20336,
+      "spellName": "Improved Seal of the Crusader",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 10%."
+    },
+    {
+      "id": 20337,
+      "spellName": "Improved Seal of the Crusader",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 15%."
+    },
+    {
+      "id": 20060,
+      "spellName": "Deflection",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Parry chance by 1%."
+    },
+    {
+      "id": 20061,
+      "spellName": "Deflection",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Parry chance by 2%."
+    },
+    {
+      "id": 20062,
+      "spellName": "Deflection",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Parry chance by 3%."
+    },
+    {
+      "id": 20063,
+      "spellName": "Deflection",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Parry chance by 4%."
+    },
+    {
+      "id": 20064,
+      "spellName": "Deflection",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases your Parry chance by 5%."
+    },
+    {
+      "id": 9452,
+      "spellName": "Vindication",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 5% for 10 sec."
+    },
+    {
+      "id": 26016,
+      "spellName": "Vindication",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 10% for 10 sec."
+    },
+    {
+      "id": 26021,
+      "spellName": "Vindication",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 15% for 10 sec."
+    },
+    {
+      "id": 20117,
+      "spellName": "Conviction",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 1%."
+    },
+    {
+      "id": 20118,
+      "spellName": "Conviction",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 2%."
+    },
+    {
+      "id": 20119,
+      "spellName": "Conviction",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 3%."
+    },
+    {
+      "id": 20120,
+      "spellName": "Conviction",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 4%."
+    },
+    {
+      "id": 20121,
+      "spellName": "Conviction",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 5%."
+    },
+    {
+      "id": 20375,
+      "spellName": "Seal of Command",
+      "spellRank": 1,
+      "resourceCost": "65 Mana",
+      "cooldown": "",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.<br><br>Unleashing this Seal's energy will judge an enemy, instantly causing 68 to 73 Holy damage, 137 to 146 if the target is stunned or incapacitated."
+    },
+    {
+      "id": 26022,
+      "spellName": "Pursuit of Justice",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases movement and mounted movement speed by 4%. This does not stack with other movement speed increasing effects."
+    },
+    {
+      "id": 26023,
+      "spellName": "Pursuit of Justice",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases movement and mounted movement speed by 8%. This does not stack with other movement speed increasing effects."
+    },
+    {
+      "id": 9799,
+      "spellName": "Eye for an Eye",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"All spell criticals against you cause 15% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+    },
+    {
+      "id": 25988,
+      "spellName": "Eye for an Eye",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"All spell criticals against you cause 30% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+    },
+    {
+      "id": 20091,
+      "spellName": "Improved Retribution Aura",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Retribution Aura by 25%."
+    },
+    {
+      "id": 20092,
+      "spellName": "Improved Retribution Aura",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage done by your Retribution Aura by 50%."
+    },
+    {
+      "id": 20111,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 2%."
+    },
+    {
+      "id": 20112,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 4%."
+    },
+    {
+      "id": 20113,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 6%."
+    },
+    {
+      "id": 20218,
+      "spellName": "Sanctity Aura",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time."
+    },
+    {
+      "id": 20049,
+      "spellName": "Vengeance",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives you a 3% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+    },
+    {
+      "id": 20056,
+      "spellName": "Vengeance",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives you a 6% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+    },
+    {
+      "id": 20057,
+      "spellName": "Vengeance",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives you a 9% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+    },
+    {
+      "id": 20058,
+      "spellName": "Vengeance",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives you a 12% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+    },
+    {
+      "id": 20059,
+      "spellName": "Vengeance",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Gives you a 15% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+    },
+    {
+      "id": 20066,
+      "spellName": "Repentance",
+      "spellRank": 0,
+      "resourceCost": "60 Mana",
+      "cooldown": "30 sec",
+      "castTime": "Instant",
+      "range":"20 yd range",
+      "requirements":["Requires Paladin"],
+      "tooltip":"Puts the enemy target in a state of meditation, incapacitating them for up to 30 sec. Any damage caused will awaken the target. Only works against Humanoids."
+    },
+    {
+      "id": 33046,
+      "spellName": "Crusader Strike",
+      "spellRank": 1,
+      "resourceCost": "130 Mana",
+      "cooldown": "6 sec",
+      "castTime": "Instant",
+      "requirements":["Requires Paladin"],
+      "tooltip":"An instant strike that causes 110% weapon damage and increases the Holy Damage taken by the target by up to 9 per Crusader Strike. Can be applied up to 5 times."
+    }
+  ]
+}
