@@ -5,7 +5,7 @@
       "id": 2101,
       "talentTab": 0,
       "talentName": "Improved Aspect of the Hawk",
-      "icon":"https://wow.zamimg.com/images/wow/icons/large/spell_nature_ravenform.jpg",
+      "icon":"icons/spell_nature_ravenform.png",
       "position": [ 0, 1 ],
       "maxTalentPoints": 5,
       "spellRanks": {

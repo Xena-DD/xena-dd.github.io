@@ -9,7 +9,11 @@ h1,h2,h3{
 
 h1{
     text-align: center;
-    color: white;
+    color: #FFFFFF;
+}
+
+.class-name-title {
+    text-align: center;
 }
 
 .calculator-splash-inner {
@@ -27,8 +31,17 @@ h1{
     padding: 5px;
 }
 
+.calculator-splash-inner .icon:not(.selected){
+    opacity: 0.5;
+}
+
+.calculator-splash-inner .selected del{
+    border-color:rgba(255,209,0,0.8);
+    opacity: 1 !important;
+}
+
 .calculator-tree {
-    background: #000;
+    background: #000000;
     border-radius: 6px;
     border: 2px solid #3b3b3b;
     flex: 1 0 auto;
@@ -54,7 +67,7 @@ h1{
 
 .calculator-tree-header {
     align-items: center;
-    color: #ccc;
+    color: #CCCCCC;
     display: flex;
     font-size: 18px;
     gap: 10px;
@@ -83,7 +96,7 @@ h1{
 }
 
 .calculator-tree-talents-background {
-    box-shadow: inset 0 0 20px 10px #000;
+    box-shadow: inset 0 0 20px 10px #000000;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
@@ -98,6 +111,12 @@ h1{
     position: absolute;
     cursor: pointer;
 }
+
+.calculator-splash-inner .icon{
+    cursor: pointer;
+}
+
+
 
 /* We need this to waterfall the z-indexes to make the arrows appear above and below the connected talents properly */
 .calculator-tree-talent[data-row="0"] {
@@ -205,9 +224,11 @@ h1{
 
 .calculator-tree-talent[data-enabled] .icon a {
     border: 1px solid rgba(64,191,64,0.8);
-    border-radius: 5px !important;
+    border-radius: 4px;
     height: 34px;
-    width: 34px
+    width: 34px;
+    top: 4px;
+    left: 4px;
 }
 
 .calculator-tree-talent[data-enabled].calculator-at-max .calculator-tree-talent-points {
@@ -680,22 +701,19 @@ h1{
 }
 
 .icon a {
-    height: 35px;
-    width: 35px;
-    border-radius: 4px !important;
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 20;
+    height: 34px;
+    width: 34px;
+    border-radius: 3px;
     pointer-events: auto;
 }
 
-.icon a:hover{
+.calculator-tree-talent:hover a, .calculator-splash-inner .icon:hover a{
     box-shadow: inset 0px 0px 4px 2px rgba(140,186,255,1);
-}
-
-.icon a {
-    display: block;
-    left: 4px;
-    position: absolute;
-    top: 4px;
-    z-index: 20;
 }
 
 .tooltip-template {
@@ -758,11 +776,11 @@ h1{
 }
 
 .calculator-splash-inner [data-class-name="class2"] ins{
-    background-image: url("icons/class_hunter.jpg");
+    background-image: url("icons/class_hunter.png");
 }
 
 .calculator-splash-inner [data-class-name="class3"] ins{
-    background-image: url("icons/class_mage.jpg");
+    background-image: url("icons/class_mage.png");
 }
 
 .calculator-splash-inner [data-class-name="class4"] ins{
@@ -770,23 +788,23 @@ h1{
 }
 
 .calculator-splash-inner [data-class-name="class5"] ins{
-    background-image: url("icons/class_priest.jpg");
+    background-image: url("icons/class_priest.png");
 }
 
 .calculator-splash-inner [data-class-name="class6"] ins{
-    background-image: url("icons/class_rogue.jpg");
+    background-image: url("icons/class_rogue.png");
 }
 
 .calculator-splash-inner [data-class-name="class7"] ins{
-    background-image: url("icons/class_shaman.jpg");
+    background-image: url("icons/class_shaman.png");
 }
 
 .calculator-splash-inner [data-class-name="class8"] ins{
-    background-image: url("icons/class_warlock.jpg");
+    background-image: url("icons/class_warlock.png");
 }
 
 .calculator-splash-inner [data-class-name="class9"] ins{
-    background-image: url("icons/class_warrior.jpg");
+    background-image: url("icons/class_warrior.png");
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="balance"] .calculator-tree-talents-background{
@@ -1015,4 +1033,46 @@ h1{
     font-size: 20px;
     padding: 6px;
     color: #CCCCCC;
+}
+
+.mini-tooltip {
+    background-color: #111222cf;
+    border: 1px solid #777777;
+    padding: 1px 10px;
+    border-radius: 3px;
+    line-height: 16px;
+}
+.mini-tooltip b {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Verdana;
+}
+
+.mini-tooltip b[data-class-color="druid"], .class-name-title[data-class-color="druid"]{
+    color: #ff7c0a !important;
+}
+.mini-tooltip b[data-class-color="hunter"], .class-name-title[data-class-color="hunter"]{
+    color: #aad372 !important
+}
+.mini-tooltip b[data-class-color="mage"], .class-name-title[data-class-color="mage"]{
+    color: #3fc7eb !important
+}
+.mini-tooltip b[data-class-color="paladin"], .class-name-title[data-class-color="paladin"]{
+    color: #f48cba !important
+}
+.mini-tooltip b[data-class-color="priest"], .class-name-title[data-class-color="priest"]{
+    color: #FFFFFF !important;
+}
+.mini-tooltip b[data-class-color="rogue"], .class-name-title[data-class-color="rogue"]{
+    color: #fff468 !important
+}
+.mini-tooltip b[data-class-color="shaman"], .class-name-title[data-class-color="shaman"]{
+    color: #0070dd !important
+}
+.mini-tooltip b[data-class-color="warlock"], .class-name-title[data-class-color="warlock"]{
+    color: #8788ee !important
+}
+.mini-tooltip b[data-class-color="warrior"], .class-name-title[data-class-color="warrior"]{
+    color: #c69b6d !important
 }

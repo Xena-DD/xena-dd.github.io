@@ -2176,6 +2176,7 @@
       "resourceCost": "130 Mana",
       "cooldown": "6 sec",
       "castTime": "Instant",
+      "range": "Melee Range",
       "requirements":["Requires Paladin"],
       "tooltip":"An instant strike that causes 110% weapon damage and increases the Holy Damage taken by the target by up to 9 per Crusader Strike. Can be applied up to 5 times."
     }

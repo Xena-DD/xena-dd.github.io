@@ -1,4 +1,7 @@
-//TODO: clean up code to determine when things are undefined or an empty string in the JSON file, can be more consistent with this
+//TODO: clean up code to determine when things are undefined or an empty string in the JSON file, can be more consistent with this, can improve the whole data structure too, talents don't need to refer to spells, can just add it all in one object
+//TODO: update serrated blades tooltip per level: ref. https://github.com/hseager/Classic-WoW-Talent-Planner/issues/16
+//TODO: full functionality of building the tree, adding conditions, level required and path of talents you chose, although that's a bit overkill for our use case of just showcasing the new class design
+// because then we should kind of use a framework like react or vue
 
 const totalMaxTalentPoints = 51
 
@@ -39,18 +42,48 @@ let talentTreeLoaded = false;
 
 function initialize() {
 
+  $(".calculator-splash-inner .icon").css("opacity",1);
+
+  $(".calculator-splash-inner .icon").on("mouseover", function(){
+    let boundingRect;
+    let className = talentTrees[$(this).attr("data-class-name")]["name"];
+    let topPosition;
+    let leftPosition;
+
+    boundingRect = $(this)[0].getBoundingClientRect();
+    topPosition = boundingRect.top - 20;
+    leftPosition = boundingRect.left + 42;
+
+    showMiniTooltip(className,topPosition,leftPosition);
+  });
+  $(".calculator-splash-inner .icon").on("mouseout", function(){
+    $(".mini-tooltip").hide();
+  });
+
   $(".calculator-splash-inner .icon").on("click",function(){
 
+    $(".calculator-splash-inner .icon").removeAttr("style");
+
+    $(".calculator-tree-container, .calculator-tree-reset-all").show();
+
+    $(".calculator-splash-inner .selected").removeClass("selected");
+
+    $(this).addClass("selected");
+
     let className = $(this).attr("data-class-name");
+    let classActualName = talentTrees[$(this).attr("data-class-name")]["name"];
+    $(".class-name-title").text(classActualName.charAt(0).toUpperCase() + classActualName.slice(1));
+
+    $(".class-name-title").attr("data-class-color",classActualName);
+
     loadTalentTree(className);
 
   })
-
 }
 
 function loadTalentTree(classID) {
 
-  if(currentClassID == classID){
+  if(currentClassID == classID) {
     return;
   }
   
@@ -161,8 +194,7 @@ function buildTalentTree() {
       let elementArrow;
 
       //Left or right arrows, so where two connected talents are on the same row but different columns
-      if(value["position"][0] == startRow)
-      {
+      if(value["position"][0] == startRow) {
         //check if it's a left or right arrow
 
         //(there are originally no left arrows and we didnd't add a talent that needs it so don't need to check for now)
@@ -173,8 +205,7 @@ function buildTalentTree() {
       }
 
       //Angular arrows, so where two connected talents are on different rows AND columns
-      if(value["position"][0] != startRow && value["position"][1] != startCol)
-      {
+      if(value["position"][0] != startRow && value["position"][1] != startCol) {
         //check if it's a left or right arrow
 
         //(there are originally no left arrows and we didnd't add a talent that needs it so don't need to check for now)
@@ -195,22 +226,7 @@ function buildTalentTree() {
 
       $(selector).append(elementArrow);
 
-      // $("#" + startTalent[0]["id"]).css("z-index", zIndex);
-      // //Every start talent needs its z-index increased so it overlays over the arrow
-      // //If the start talent is also an end talent, gotta waterfall the z-indexes
-      // //This only works if we order the talents properly in .json file so it's not foolproof
-      // //We grab the arrow, give it a z-index of 4, give the start talent that z-index +1, the end talent z-index -1
-      // if(startTalent[0]["prereqTalent1"] != undefined) {
-      //   zIndex--;
-      //   $("#" + startTalent[0]["id"]).css("z-index", zIndex);
-      // }
-      // else{
-      //   $("#" + startTalent[0]["id"]).css("z-index", 4);
-      // }  
-
     }
-
-
 
     $("#s4").attr("data-class-name",talentTrees[currentClassID]["name"]);
 
@@ -230,7 +246,8 @@ function buildTalentTree() {
 }
 
 function setEventHandlers() {
-  
+
+
   //Cant use .toggle() cause mouseover gets called twice on hover cause the html is scuffed
   $(".calculator-tree-talent[data-name]").on("mouseover", function () {
 
@@ -286,6 +303,7 @@ function setEventHandlers() {
             break;
         default:
             //You have a strange mouse
+            break;
     }
   });
 
@@ -356,7 +374,6 @@ function addTalentPoint(clickedTalent) {
       $(".calculator-tree" + "[data-tab='" + talentTab + "']" + " .calculator-tree-header-points").text(totalTab3TalentPoints + " / 51");
       break;
     default:
-
       break;
   }
 
@@ -501,7 +518,7 @@ function buildTooltip(id) {
   if(talentRank != 0 && (typeof talentRank) != "string") {
     $(".tooltip-template .tooltip-rank b").text("Rank " + talentRank);
   }
-  if(talentRank == 0){
+  if(talentRank == 0) {
     $(".tooltip-template .tooltip-rank b").text(null);
   }
   //In rare cases it's a string (e.g. Shapeshift)
@@ -512,6 +529,7 @@ function buildTooltip(id) {
   //Talent requirements
   //Clear the previous ones
   $("tr[class^='tooltip-requirements']").remove();
+
   $.each(talentRequirements,function(index,value){
     let htmlString = "<tr class=\"tooltip-requirements-" + (index + 1) + "\"><td colspan=\"2\"></td></tr>";
     $(htmlString).appendTo(".tooltip-template .table-1 tbody");
@@ -531,12 +549,9 @@ function buildTooltip(id) {
   $(".tooltip-template .tooltip-range").text(null);
 
   //If it's not a passive talent it will have a cast time, cooldown and maybe a resource cost or more requirements(stealth, totem...) or cast range
-  if(talentCastTime != "")
-  { 
-
+  if(talentCastTime != "") { 
     //Sometimes the resource cost is free then we don't need to set that element
-    if(talentResourceCost != "")
-    {
+    if(talentResourceCost != "") {
       //Gotta show the optional rows, normally they're hidden for styling reasons
       $(".optional-row1").show();
 
@@ -544,45 +559,49 @@ function buildTooltip(id) {
     }
 
     //Range
-    if(talentRange != "")
-    {
+    if(talentRange != "" && talentResourceCost != "") {
       $(".optional-row1").show();
 
       $(".tooltip-template .tooltip-range").text(talentRange);
     }
+    //It's possible there's no resource cost but a range, e.g Premeditation from the Rogue, then we want to move the range value into the resource cost cell
+    if(talentRange != "" && talentResourceCost == "") {
+      $(".optional-row1").show();
+
+      $(".tooltip-template .tooltip-resource-cost").text(talentRange);
+    }
+
 
     $(".optional-row2").show();
     $(".tooltip-template .tooltip-cast-time").text(talentCastTime);
 
-    if(talentCooldown != "")
-    {
+    if(talentCooldown != "") {
       $(".optional-row2").show();
       $(".tooltip-template .tooltip-cooldown").text(talentCooldown + " cooldown");
     }
 
     //Sometimes there's no resource cost and no range but it is a spell(e.g amplify curse)
-    if(talentResourceCost == "" && talentRange == undefined)
-    {
+    if(talentResourceCost == "" && talentRange == undefined) {
       $(".optional-row1").hide();
     }
-
-    // //Remove the rank 0, if it's not a string, cause then it means it shows something like Shapeshift and then we don't want to remove it
-    // if((typeof talentRank) != "string")
-    // {
-    //   $(".tooltip-template .tooltip-rank b").text(null);
-    // }
-
   }
-
 }
 
 function showTooltip(id, topPosition, leftPosition) {
 
   let tooltip = $("#" + id);
 
-  $(tooltip).css("left", leftPosition).css("top", topPosition).css("visibility", "visible");
+  $(tooltip).css("top", topPosition).css("left", leftPosition).css("visibility", "visible");
   $(tooltip).show();
 
+}
+
+function showMiniTooltip(className, topPosition, leftPosition){
+  
+  $(".mini-tooltip b").text(className.charAt(0).toUpperCase() + className.slice(1));
+  $(".mini-tooltip b").attr("data-class-color",className);
+  $(".mini-tooltip").css("top", topPosition).css("left", leftPosition)
+  $(".mini-tooltip").show();
 }
 
 
