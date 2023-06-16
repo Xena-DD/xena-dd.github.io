@@ -548,7 +548,7 @@
         }
     },
     {
-      "id": 9302,
+      "id": 9303,
       "talentTab": 2,
       "talentName": "Improved Bloodrage",
       "icon":"icons/ability_racial_bloodrage.png",
@@ -563,7 +563,7 @@
         }
     },
     {
-      "id": 9303,
+      "id": 9302,
       "talentTab": 2,
       "talentName": "Toughness",
       "icon":"icons/spell_holy_devotion.png",
@@ -578,7 +578,7 @@
         }
     },
     {
-      "id": 9304,
+      "id": 9305,
       "talentTab": 2,
       "talentName": "Iron Will",
       "icon":"icons/spell_magic_magearmor.png",
@@ -591,6 +591,22 @@
         "spellRank4": 12961,
         "spellRank5" : 12962
         }
+    },
+    {
+      "id": 9306,
+      "talentTab": 2,
+      "talentName": "Last Stand",
+      "icon":"icons/spell_holy_ashestoashes.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12975,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1": 9303
     }
   ],
   "talentSpells":
@@ -1956,6 +1972,16 @@
       "castTime": "",
       "requirements":["Requires Warrior"],
       "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 15%."
+    },
+    {
+      "id": 12975,
+      "spellName":"Last Stand",
+      "spellRank": 0,
+      "resourceCost": "",
+      "cooldown": "10 min",
+      "castTime": "Instant",
+      "requirements":["Requires Warrior"],
+      "tooltip":"When activated, this ability temporarily grants you 30% of your maximum hit points for 20 seconds. After the effect expires, the hit points are lost."
     }
   ]
 }
