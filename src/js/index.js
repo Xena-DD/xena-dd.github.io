@@ -1,7 +1,20 @@
 //TODO: clean up code to determine when things are undefined or an empty string in the JSON file, can be more consistent with this, can improve the whole data structure too, talents don't need to refer to spells, can just add it all in one object
 //TODO: update serrated blades tooltip per level: ref. https://github.com/hseager/Classic-WoW-Talent-Planner/issues/16
-//TODO: full functionality of building the tree, adding conditions, level required and path of talents you chose, although that's a bit overkill for our use case of just showcasing the new class design
+//TODO: full functionality of building the tree, adding conditions, level required and path of talents you chose, export link..., although that's a bit overkill for our use case of just showcasing the new class design
 // because then we should kind of use a framework like react or vue
+
+import druidTalents from "../data/druidTalents.json";
+import hunterTalents from "../data/hunterTalents.json";
+import mageTalents from "../data/mageTalents.json";
+import paladinTalents from "../data/paladinTalents.json";
+import priestTalents from "../data/priestTalents.json";
+import rogueTalents from "../data/rogueTalents.json";
+import shamanTalents from "../data/shamanTalents.json";
+import warlockTalents from "../data/warlockTalents.json";
+import warriorTalents from "../data/warriorTalents.json";
+
+import "../css/styles.css";
+import $ from "jquery";
 
 const totalMaxTalentPoints = 51
 
@@ -40,6 +53,11 @@ let currentTalentTree;
 let currentClassID;
 let talentTreeLoaded = false;
 
+//When window has loaded
+$(window).on("load", function () {
+ initialize();
+});
+
 function initialize() {
 
   $(".calculator-splash-inner .icon").css("opacity",1);
@@ -56,6 +74,7 @@ function initialize() {
 
     showMiniTooltip(className,topPosition,leftPosition);
   });
+  
   $(".calculator-splash-inner .icon").on("mouseout", function(){
     $(".mini-tooltip").hide();
   });
@@ -92,27 +111,54 @@ function loadTalentTree(classID) {
   totalTab1TalentPoints = 0;
   totalTab2TalentPoints = 0;
   totalTab3TalentPoints = 0;
-
-  let JSONfileName = talentTrees[classID]["name"] + "Talents.json";
   
   //check if we didn't already load this JSON in the talentTree property
-  if(talentTrees[classID]["talentTree"] == "")
-  {
-    $.getJSON(JSONfileName).done(function (data) {
+  if(talentTrees[classID]["talentTree"] == "") {
 
-      currentTalentTree = data;
-      
-      talentTrees[classID]["talentTree"] = data;
+    switch (classID) {
+      case "class1":
+        currentTalentTree = druidTalents;
+        talentTrees[classID]["talentTree"] = druidTalents;
+        break;
+      case "class2":
+        currentTalentTree = hunterTalents;
+        talentTrees[classID]["talentTree"] = hunterTalents;
+        break;
+      case "class3":
+        currentTalentTree = mageTalents;
+        talentTrees[classID]["talentTree"] = mageTalents;
+        break;
+      case "class4":
+        currentTalentTree = paladinTalents;
+        talentTrees[classID]["talentTree"] = paladinTalents;
+        break;
+      case "class5":
+        currentTalentTree = priestTalents;
+        talentTrees[classID]["talentTree"] = priestTalents;
+        break;
+      case "class6":
+        currentTalentTree = rogueTalents;
+        talentTrees[classID]["talentTree"] = rogueTalents;
+        break;
+      case "class7":
+        currentTalentTree = shamanTalents;
+        talentTrees[classID]["talentTree"] = shamanTalents;
+        break;
+      case "class8":
+        currentTalentTree = warlockTalents;
+        talentTrees[classID]["talentTree"] = warlockTalents;
+        break;
+      case "class9":
+        currentTalentTree = warriorTalents;
+        talentTrees[classID]["talentTree"] = warriorTalents;
+        break;
+      default:
+        break;
+    }
 
       currentClassID = classID
 
       buildTalentTree();
-
-    }).fail(function (jqxhr, textStatus, error) {
-      var errorMessage = textStatus + ", " + error;
-      console.log("Get JSON request failed: " + errorMessage + ". ");
-      alert("Get JSON request failed: " + errorMessage + ". ");
-    });
   }
   //If we did load the JSON, but we didn't build the tree yet, cause we swapped back from another class, build the tree, it's in the talentTrees object
   else if (classID != currentClassID){
@@ -120,7 +166,6 @@ function loadTalentTree(classID) {
     currentClassID = classID;
     buildTalentTree();
   }
-
 }
 
 function CalculateTotalTalentPoints() {
@@ -133,8 +178,7 @@ function CalculateTotalTalentPoints() {
     totalTalentPoints = totalTalentPoints + points;
   });
 
-  if(totalTalentPoints == totalMaxTalentPoints)
-  {
+  if(totalTalentPoints == totalMaxTalentPoints) {
     //lock the talent trees
     //$(".calculator-tree-talent").off("mousedown");
   }
@@ -142,10 +186,8 @@ function CalculateTotalTalentPoints() {
 
 function buildTalentTree() {
 
-  let zIndex = 11;
-
   //clear out the previous talents if any, update the headers and splash arts
-  if($(".calculator-tree-talents").children() != null){
+  if($(".calculator-tree-talents").children() != null) {
     $(".calculator-tree-talents").empty();
   }
 
@@ -159,6 +201,8 @@ function buildTalentTree() {
 
   //now build all the talents
   $.each(currentTalentTree["talentTree"], function (key, value) {
+
+    let icon = require("../img/" + value["icon"] + "?as=webp");
 
     let selector = "#s4 [data-tab='" + value["talentTab"] + "']" + " .calculator-tree-talents";
 
@@ -175,14 +219,14 @@ function buildTalentTree() {
 
     let element1 = "<div" + talentID + " class=\"calculator-tree-talent\"" + attributeID + attributeRow + attributeCol + attributeMaxPoints + " " + attributeName + " data-points=\"\"></div>";
     let element2 = "<div class=\"icon\"></div>";
-    let element3 = "<ins style=\"background-image: url(&quot;" + value["icon"] + "&quot;);\"></ins>"
+    let element3 = "<ins style=\"background-image: url(&quot;" + icon + "&quot;);\"></ins>"
     let element4 = "<del></del>"
     // let element5 = "<a href=\"https://www.wowhead.com/classic/spell=" + value["spellRanks"]["spellRank1"] + "\"></a>"
     let element5 = "<a></a>"
     let element6 = "<span class=\"calculator-tree-talent-points\" style=\"pointer-events: none;\">" + 0 + "/" + value["maxTalentPoints"] + "</span>";
 
     //Talents with a prerequired talent need an arrow connecting to them
-    //<div class="calculator-tree-talent-arrow calculator-tree-talent-arrow-down" data-talent="721" data-col="2" data-row="2" data-size="3" style="z-index: 2;"></div>
+    //example arrow: <div class="calculator-tree-talent-arrow calculator-tree-talent-arrow-down" data-talent="721" data-col="2" data-row="2" data-size="3" style="z-index: 2;"></div>
     if(value["prereqTalent1"] != null) {
 
       let id = value["prereqTalent1"];
@@ -191,6 +235,7 @@ function buildTalentTree() {
       let startCol =startTalent[0]["position"][1];
 
       let arrowLength;
+      let arrowWidth;
       let elementArrow;
 
       //Left or right arrows, so where two connected talents are on the same row but different columns
@@ -284,12 +329,12 @@ function setEventHandlers() {
   });
 
   //prevent context menu from popping up on right clicking
-  $(".calculator-tree-talent").bind("contextmenu",function(e){
+  $(".calculator-tree-talent").on("contextmenu",function(e){
     return false;
   });
 
-  $('.calculator-tree-talent').mousedown(function(event) {
-    switch (event.which) {
+  $(".calculator-tree-talent").on("mousedown", function(e) {
+    switch (e.which) {
         case 1:
             //Left click
             addTalentPoint(this);
@@ -308,7 +353,7 @@ function setEventHandlers() {
   });
 
   $(".calculator-tree-talent-arrow").on("click", function(){   
-    $(this).attr('data-lit', function(index, attr){
+    $(this).attr("data-lit", function(index, attr){
       return attr == 1 ? null : 1;
     });
   });
@@ -325,7 +370,7 @@ function setEventHandlers() {
     resetTree("2");
   });
 
-  $('a').on("click", function (e) {
+  $("a").on("click", function (e) {
     e.preventDefault();
   });
 
@@ -333,8 +378,7 @@ function setEventHandlers() {
 
 function addTalentPoint(clickedTalent) {
 
-  if(totalTalentPoints == totalMaxTalentPoints)
-  {
+  if(totalTalentPoints == totalMaxTalentPoints) {
     return;
   }
 

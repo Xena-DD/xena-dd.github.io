@@ -1,1 +1,5 @@
-*.psd
+/debug.log
+/dist
+/node_modules
+.eslintrc.js
+*.zip

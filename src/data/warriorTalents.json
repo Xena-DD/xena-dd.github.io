@@ -1,0 +1,1961 @@
+{
+  "talentTree":
+  [
+    {
+      "id": 9101,
+      "talentTab": 0,
+      "talentName": "Improved Heroic Strike",
+      "icon":"icons/ability_rogue_ambush.png",
+      "position": [ 0, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12282,
+        "spellRank2": 12663,
+        "spellRank3": 12664,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9102,
+      "talentTab": 0,
+      "talentName": "Deflection",
+      "icon":"icons/ability_parry.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 16462,
+        "spellRank2": 16463,
+        "spellRank3": 16464,
+        "spellRank4": 16465,
+        "spellRank5" : 16466
+        }
+    },
+    {
+      "id": 9103,
+      "talentTab": 0,
+      "talentName": "Improved Rend",
+      "icon":"icons/ability_gouge.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12286,
+        "spellRank2": 12658,
+        "spellRank3": 12659,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9104,
+      "talentTab": 0,
+      "talentName": "Improved Charge",
+      "icon":"icons/ability_warrior_charge.png",
+      "position": [ 1, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 12285,
+        "spellRank2": 12697,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9105,
+      "talentTab": 0,
+      "talentName": "Tactical Mastery",
+      "icon":"icons/spell_nature_enchantarmor.png",
+      "position": [ 1, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12295,
+        "spellRank2": 12676,
+        "spellRank3": 12677,
+        "spellRank4": 12678,
+        "spellRank5" : 12679
+        }
+    },
+    {
+      "id": 9106,
+      "talentTab": 0,
+      "talentName": "Improved Thunder Clap",
+      "icon":"icons/ability_thunderclap.png",
+      "position": [ 1, 3 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12287,
+        "spellRank2": 12665,
+        "spellRank3": 12666,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9107,
+      "talentTab": 0,
+      "talentName": "Improved Overpower",
+      "icon":"icons/inv_sword_05.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 12290,
+        "spellRank2": 12963,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9108,
+      "talentTab": 0,
+      "talentName": "Anger Management",
+      "icon":"icons/spell_holy_blessingofstamina.png",
+      "position": [ 2, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12296,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":9105
+    },
+    {
+      "id": 9109,
+      "talentTab": 0,
+      "talentName": "Deep Wounds",
+      "icon":"icons/ability_backstab.png",
+      "position": [ 2, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12834,
+        "spellRank2": 12849,
+        "spellRank3": 12867,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":9103
+    },
+    {
+      "id": 9110,
+      "talentTab": 0,
+      "talentName": "Two-Handed Weapon Specialization",
+      "icon":"icons/inv_axe_09.png",
+      "position": [ 3, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12163,
+        "spellRank2": 12711,
+        "spellRank3": 12712,
+        "spellRank4": 12713,
+        "spellRank5" : 12714
+        }
+    },
+    {
+      "id": 9111,
+      "talentTab": 0,
+      "talentName": "Impale",
+      "icon":"icons/ability_searingarrow.png",
+      "position": [ 3, 2 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 16493,
+        "spellRank2": 16494,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1": 9109
+    },
+    {
+      "id": 9112,
+      "talentTab": 0,
+      "talentName": "Poleaxe Specialization",
+      "icon":"icons/inv_axe_06.png",
+      "position": [ 4, 0 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12700,
+        "spellRank2": 12781,
+        "spellRank3": 12783,
+        "spellRank4": 12784,
+        "spellRank5" : 12785
+        }
+    },
+    {
+      "id": 9113,
+      "talentTab": 0,
+      "talentName": "Sweeping Strikes",
+      "icon":"icons/ability_rogue_slicedice.png",
+      "position": [ 4, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12292,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9114,
+      "talentTab": 0,
+      "talentName": "Mace Specialization",
+      "icon":"icons/inv_mace_01.png",
+      "position": [ 4, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12284,
+        "spellRank2": 12701,
+        "spellRank3": 12702,
+        "spellRank4": 12703,
+        "spellRank5" : 12704
+        }
+    },
+    {
+      "id": 9115,
+      "talentTab": 0,
+      "talentName": "Sword Specialization",
+      "icon":"icons/inv_sword_27.png",
+      "position": [ 4, 3 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12281,
+        "spellRank2": 12812,
+        "spellRank3": 12813,
+        "spellRank4": 12814,
+        "spellRank5" : 12815
+        }
+    },
+    {
+      "id": 9116,
+      "talentTab": 0,
+      "talentName": "Improved Hamstring",
+      "icon":"icons/ability_shockwave.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12289,
+        "spellRank2": 12668,
+        "spellRank3": 23695,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9117,
+      "talentTab": 0,
+      "talentName": "Mortal Strike",
+      "icon":"icons/ability_warrior_savageblow.png",
+      "position": [ 6, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12294,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1": 9113
+    },
+    {
+      "id": 9201,
+      "talentTab": 1,
+      "talentName": "Booming Voice",
+      "icon":"icons/spell_nature_purge.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12321,
+        "spellRank2": 12835,
+        "spellRank3": 12836,
+        "spellRank4": 12837,
+        "spellRank5" : 12838
+        }
+    },
+    {
+      "id": 9202,
+      "talentTab": 1,
+      "talentName": "Cruelty",
+      "icon":"icons/ability_rogue_eviscerate.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12320,
+        "spellRank2": 12852,
+        "spellRank3": 12853,
+        "spellRank4": 12855,
+        "spellRank5" : 12856
+        }
+    },
+    {
+      "id": 9203,
+      "talentTab": 1,
+      "talentName": "Improved Demoralizing Shout",
+      "icon":"icons/ability_warrior_warcry.png",
+      "position": [ 1, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12324,
+        "spellRank2": 12876,
+        "spellRank3": 12877,
+        "spellRank4": 12878,
+        "spellRank5" : 12879
+        }
+    },
+    {
+      "id": 9204,
+      "talentTab": 1,
+      "talentName": "Unbridled Wrath",
+      "icon":"icons/spell_nature_stoneclawtotem.png",
+      "position": [ 1, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12322,
+        "spellRank2": 12999,
+        "spellRank3": 13000,
+        "spellRank4": 13001,
+        "spellRank5" : 13002
+        }
+    },
+    {
+      "id": 9205,
+      "talentTab": 1,
+      "talentName": "Improved Cleave",
+      "icon":"icons/ability_warrior_cleave.png",
+      "position": [ 2, 0 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 12329,
+        "spellRank2": 12950,
+        "spellRank3": 20496,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9206,
+      "talentTab": 1,
+      "talentName": "Piercing Howl",
+      "icon":"icons/spell_shadow_deathscream.png",
+      "position": [ 2, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12323,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9207,
+      "talentTab": 1,
+      "talentName": "Blood Craze",
+      "icon":"icons/spell_shadow_summonimp.png",
+      "position": [ 2, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 16487,
+        "spellRank2": 16489,
+        "spellRank3": 16492,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9208,
+      "talentTab": 1,
+      "talentName": "Improved Battle Shout",
+      "icon":"icons/ability_warrior_battleshout.png",
+      "position": [ 2, 3 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12318,
+        "spellRank2": 12857,
+        "spellRank3": 12858,
+        "spellRank4": 12860,
+        "spellRank5" : 12861
+        }
+    },
+    {
+      "id": 9209,
+      "talentTab": 1,
+      "talentName": "Dual Wield Specialization",
+      "icon":"icons/ability_dualwield.png",
+      "position": [ 3, 0 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 23584,
+        "spellRank2": 23585,
+        "spellRank3": 23586,
+        "spellRank4": 23587,
+        "spellRank5" : 23588
+        }
+    },
+    {
+      "id": 9210,
+      "talentTab": 1,
+      "talentName": "Improved Execute",
+      "icon":"icons/inv_sword_48.png",
+      "position": [ 3, 1 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20502,
+        "spellRank2": 20503,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9211,
+      "talentTab": 1,
+      "talentName": "Enrage",
+      "icon":"icons/spell_shadow_unholyfrenzy.png",
+      "position": [ 3, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12317,
+        "spellRank2": 13045,
+        "spellRank3": 13046,
+        "spellRank4": 13047,
+        "spellRank5" : 13048
+        }
+    },
+    {
+      "id": 9212,
+      "talentTab": 1,
+      "talentName": "Improved Slam",
+      "icon":"icons/ability_warrior_decisivestrike.png",
+      "position": [ 4, 0 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12862,
+        "spellRank2": 12330,
+        "spellRank3": 20497,
+        "spellRank4": 20498,
+        "spellRank5" : 20499
+        }
+    },
+    {
+      "id": 9213,
+      "talentTab": 1,
+      "talentName": "Death Wish",
+      "icon":"icons/spell_shadow_deathpact.png",
+      "position": [ 4, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 12328,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9214,
+      "talentTab": 1,
+      "talentName": "Improved Intercept",
+      "icon":"icons/ability_rogue_sprint.png",
+      "position": [ 4, 3 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20504,
+        "spellRank2": 20505,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9215,
+      "talentTab": 1,
+      "talentName": "Improved Berserker Rage",
+      "icon":"icons/spell_nature_ancestralguardian.png",
+      "position": [ 5, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 20500,
+        "spellRank2": 20501,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9216,
+      "talentTab": 1,
+      "talentName": "Flurry",
+      "icon":"icons/ability_ghoulfrenzy.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12319,
+        "spellRank2": 12971,
+        "spellRank3": 12972,
+        "spellRank4": 12973,
+        "spellRank5" : 12974
+        },
+      "prereqTalent1":9211
+    },
+    {
+      "id": 9217,
+      "talentTab": 1,
+      "talentName": "Bloodthirst",
+      "icon":"icons/spell_nature_bloodlust.png",
+      "position": [ 6, 1 ],
+      "maxTalentPoints": 1,
+      "spellRanks": {
+        "spellRank1": 23881,
+        "spellRank2": 0,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        },
+      "prereqTalent1":9213
+    },
+    {
+      "id": 9301,
+      "talentTab": 2,
+      "talentName": "Shield Specialization",
+      "icon":"icons/inv_shield_06.png",
+      "position": [ 0, 1 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12298,
+        "spellRank2": 12724,
+        "spellRank3": 12725,
+        "spellRank4": 12726,
+        "spellRank5" : 12727
+        }
+    },
+    {
+      "id": 9302,
+      "talentTab": 2,
+      "talentName": "Anticipation",
+      "icon":"icons/spell_nature_mirrorimage.png",
+      "position": [ 0, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12297,
+        "spellRank2": 12750,
+        "spellRank3": 12751,
+        "spellRank4": 12752,
+        "spellRank5" : 12753
+        }
+    },
+    {
+      "id": 9302,
+      "talentTab": 2,
+      "talentName": "Improved Bloodrage",
+      "icon":"icons/ability_racial_bloodrage.png",
+      "position": [ 1, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 12301,
+        "spellRank2": 12818,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
+      "id": 9303,
+      "talentTab": 2,
+      "talentName": "Toughness",
+      "icon":"icons/spell_holy_devotion.png",
+      "position": [ 1, 2 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12299,
+        "spellRank2": 12761,
+        "spellRank3": 12762,
+        "spellRank4": 12763,
+        "spellRank5" : 12764
+        }
+    },
+    {
+      "id": 9304,
+      "talentTab": 2,
+      "talentName": "Iron Will",
+      "icon":"icons/spell_magic_magearmor.png",
+      "position": [ 1, 3 ],
+      "maxTalentPoints": 5,
+      "spellRanks": {
+        "spellRank1": 12300,
+        "spellRank2": 12959,
+        "spellRank3": 12960,
+        "spellRank4": 12961,
+        "spellRank5" : 12962
+        }
+    }
+  ],
+  "talentSpells":
+  [
+    {
+      "id": 12282,
+      "spellName": "Improved Heroic Strike",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Heroic Strike ability by 1 rage point."
+    },
+    {
+      "id": 12663,
+      "spellName": "Improved Heroic Strike",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Heroic Strike ability by 2 rage points."
+    },
+    {
+      "id": 12664,
+      "spellName": "Improved Heroic Strike",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Heroic Strike ability by 3 rage points."
+    },
+    {
+      "id": 16462,
+      "spellName": "Deflection",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Parry chance by 1%."
+    },
+    {
+      "id": 16463,
+      "spellName": "Deflection",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Parry chance by 2%."
+    },
+    {
+      "id": 16464,
+      "spellName": "Deflection",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Parry chance by 3%."
+    },
+    {
+      "id": 16465,
+      "spellName": "Deflection",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Parry chance by 4%."
+    },
+    {
+      "id": 16466,
+      "spellName": "Deflection",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Parry chance by 5%."
+    },
+    {
+      "id": 12286,
+      "spellName": "Improved Rend",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bleed damage done by your Rend ability by 15%."
+    },
+    {
+      "id": 12658,
+      "spellName": "Improved Rend",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bleed damage done by your Rend ability by 30%."
+    },
+    {
+      "id": 12659,
+      "spellName": "Improved Rend",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bleed damage done by your Rend ability by 45%."
+    },
+    {
+      "id": 12285,
+      "spellName": "Improved Charge",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the amount of rage generated by your Charge ability by 3."
+    },
+    {
+      "id": 12697,
+      "spellName": "Improved Charge",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the amount of rage generated by your Charge ability by 6."
+    },
+    {
+      "id": 12295,
+      "spellName": "Tactical Mastery",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"You retain up to 5 of your rage points when you change stances."
+    },
+    {
+      "id": 12676,
+      "spellName": "Tactical Mastery",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"You retain up to 10 of your rage points when you change stances."
+    },
+    {
+      "id": 12677,
+      "spellName": "Tactical Mastery",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"You retain up to 15 of your rage points when you change stances."
+    },
+    {
+      "id": 12678,
+      "spellName": "Tactical Mastery",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"You retain up to 20 of your rage points when you change stances."
+    },
+    {
+      "id": 12679,
+      "spellName": "Tactical Mastery",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"You retain up to 25 of your rage points when you change stances."
+    },
+    {
+      "id": 12287,
+      "spellName": "Improved Thunder Clap",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Thunder Clap ability by 1 rage point and increases the threat generated by 10%."
+    },
+    {
+      "id": 12665,
+      "spellName": "Improved Thunder Clap",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Thunder Clap ability by 2 rage points and increases the threat generated by 20%."
+    },
+    {
+      "id": 12666,
+      "spellName": "Improved Thunder Clap",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cost of your Thunder Clap ability by 3 rage points and increases the threat generated by 30%."
+    },
+    {
+      "id": 12290,
+      "spellName": "Improved Overpower",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the critical strike chance of your Overpower ability by 25%."
+    },
+    {
+      "id": 12963,
+      "spellName": "Improved Overpower",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the critical strike chance of your Overpower ability by 50%."
+    },
+    {
+      "id": 12296,
+      "spellName": "Anger Management",
+      "spellRank": 0,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the time required for your rage to decay while out of combat by 30% and generates 1 rage every 3 sec while in combat."
+    },
+    {
+      "id": 12834,
+      "spellName": "Deep Wounds",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec."
+    },
+    {
+      "id": 12849,
+      "spellName": "Deep Wounds",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Your critical strikes cause the opponent to bleed, dealing 40% of your melee weapon's average damage over 12 sec."
+    },
+    {
+      "id": 12867,
+      "spellName": "Deep Wounds",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Your critical strikes cause the opponent to bleed, dealing 60% of your melee weapon's average damage over 12 sec."
+    },
+    {
+      "id": 12163,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 1%."
+    },
+    {
+      "id": 12711,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 2%."
+    },
+    {
+      "id": 12712,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 3%."
+    },
+    {
+      "id": 12713,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 4%."
+    },
+    {
+      "id": 12714,
+      "spellName": "Two-Handed Weapon Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage you deal with two-handed melee weapons by 5%."
+    },
+    {
+      "id": 16493,
+      "spellName": "Impale",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 10%."
+    },
+    {
+      "id": 16494,
+      "spellName": "Impale",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 20%."
+    },
+    {
+      "id": 12700,
+      "spellName": "Poleaxe Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to get a critical strike with Axes and Polearms by 1%."
+    },
+    {
+      "id": 12781,
+      "spellName": "Poleaxe Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to get a critical strike with Axes and Polearms by 2%."
+    },
+    {
+      "id": 12783,
+      "spellName": "Poleaxe Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to get a critical strike with Axes and Polearms by 3%."
+    },
+    {
+      "id": 12784,
+      "spellName": "Poleaxe Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to get a critical strike with Axes and Polearms by 4%."
+    },
+    {
+      "id": 12785,
+      "spellName": "Poleaxe Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to get a critical strike with Axes and Polearms by 5%."
+    },
+    {
+      "id": 12292,
+      "spellName": "Sweeping Strikes",
+      "spellRank": 0,
+      "resourceCost": "30 Rage",
+      "cooldown": "30 sec",
+      "castTime": "Instant",
+      "requirements":["Requires Warrior","Requires Battle Stance"],
+      "tooltip":"Your next 5 melee attacks strike an additional nearby opponent."
+    },
+    {
+      "id": 12284,
+      "spellName": "Mace Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 1% chance to stun your target for 3 sec with a Mace."
+    },
+    {
+      "id": 12701,
+      "spellName": "Mace Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 2% chance to stun your target for 3 sec with a Mace."
+    },
+    {
+      "id": 12702,
+      "spellName": "Mace Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 3% chance to stun your target for 3 sec with a Mace."
+    },
+    {
+      "id": 12703,
+      "spellName": "Mace Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 4% chance to stun your target for 3 sec with a Mace."
+    },
+    {
+      "id": 12704,
+      "spellName": "Mace Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 6% chance to stun your target for 3 sec with a Mace."
+    },
+    {
+      "id": 12281,
+      "spellName": "Sword Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 1% chance to get an extra attack on the same target after dealing damage with your Sword."
+    },
+    {
+      "id": 12812,
+      "spellName": "Sword Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 2% chance to get an extra attack on the same target after dealing damage with your Sword."
+    },
+    {
+      "id": 12813,
+      "spellName": "Sword Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 3% chance to get an extra attack on the same target after dealing damage with your Sword."
+    },
+    {
+      "id": 12814,
+      "spellName": "Sword Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 4% chance to get an extra attack on the same target after dealing damage with your Sword."
+    },
+    {
+      "id": 12815,
+      "spellName": "Sword Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 5% chance to get an extra attack on the same target after dealing damage with your Sword."
+    },
+    {
+      "id": 12289,
+      "spellName": "Improved Hamstring",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives your Hamstring ability a 5% chance to immobilize the target for 5 sec."
+    },
+    {
+      "id": 12668,
+      "spellName": "Improved Hamstring",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec."
+    },
+    {
+      "id": 23695,
+      "spellName": "Improved Hamstring",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives your Hamstring ability a 15% chance to immobilize the target for 5 sec."
+    },
+    {
+      "id": 12294,
+      "spellName": "Mortal Strike",
+      "spellRank": 1,
+      "resourceCost": "30 Rage",
+      "cooldown": "6 sec",
+      "castTime": "Instant",
+      "range":"Melee Range",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec."
+    },
+    {
+      "id": 12321,
+      "spellName": "Booming Voice",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 10%."
+    },
+    {
+      "id": 12835,
+      "spellName": "Booming Voice",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 20%."
+    },
+    {
+      "id": 12836,
+      "spellName": "Booming Voice",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 30%."
+    },
+    {
+      "id": 12837,
+      "spellName": "Booming Voice",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 40%."
+    },
+    {
+      "id": 12838,
+      "spellName": "Booming Voice",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 50%."
+    },
+    {
+      "id": 12320,
+      "spellName": "Cruelty",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 1%."
+    },
+    {
+      "id": 12852,
+      "spellName": "Cruelty",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 2%."
+    },
+    {
+      "id": 12853,
+      "spellName": "Cruelty",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 3%."
+    },
+    {
+      "id": 12855,
+      "spellName": "Cruelty",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 4%."
+    },
+    {
+      "id": 12856,
+      "spellName": "Cruelty",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Increases your chance to get a critical strike with melee weapons by 5%."
+    },
+    {
+      "id": 12324,
+      "spellName": "Improved Demoralizing Shout",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power reduction of your Demoralizing Shout by 8%."
+    },
+    {
+      "id": 12876,
+      "spellName": "Improved Demoralizing Shout",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power reduction of your Demoralizing Shout by 16%."
+    },
+    {
+      "id": 12877,
+      "spellName": "Improved Demoralizing Shout",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power reduction of your Demoralizing Shout by 24%."
+    },
+    {
+      "id": 12878,
+      "spellName": "Improved Demoralizing Shout",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power reduction of your Demoralizing Shout by 32%."
+    },
+    {
+      "id": 12879,
+      "spellName": "Improved Demoralizing Shout",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power reduction of your Demoralizing Shout by 40%."
+    },
+    {
+      "id": 12322,
+      "spellName": "Unbridled Wrath",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Gives you a 8% chance to generate an additional Rage point when you deal melee damage with a weapon."
+    },
+    {
+      "id": 12999,
+      "spellName": "Unbridled Wrath",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Gives you a 16% chance to generate an additional Rage point when you deal melee damage with a weapon."
+    },
+    {
+      "id": 13000,
+      "spellName": "Unbridled Wrath",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Gives you a 24% chance to generate an additional Rage point when you deal melee damage with a weapon."
+    },
+    {
+      "id": 13001,
+      "spellName": "Unbridled Wrath",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Gives you a 32% chance to generate an additional Rage point when you deal melee damage with a weapon."
+    },
+    {
+      "id": 13002,
+      "spellName": "Unbridled Wrath",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior", "Requires Melee Weapon"],
+      "tooltip":"Gives you a 40% chance to generate an additional Rage point when you deal melee damage with a weapon."
+    },
+    {
+      "id": 12329,
+      "spellName": "Improved Cleave",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bonus damage done by your Cleave ability by 40% and reduces the cost by 1 rage point."
+    },
+    {
+      "id": 12950,
+      "spellName": "Improved Cleave",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bonus damage done by your Cleave ability by 80% and reduces the cost by 2 rage points."
+    },
+    {
+      "id": 20496,
+      "spellName": "Improved Cleave",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the bonus damage done by your Cleave ability by 120% and reduces the cost by 3 rage points."
+    },
+    {
+      "id": 12323,
+      "spellName": "Piercing Howl",
+      "spellRank": 0,
+      "resourceCost": "10 Rage",
+      "cooldown": "",
+      "castTime": "Instant",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec."
+    },
+    {
+      "id": 16487,
+      "spellName": "Blood Craze",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Regenerates 2% of your total Health over 6 sec after being the victim of a critical strike."
+    },
+    {
+      "id": 16489,
+      "spellName": "Blood Craze",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Regenerates 4% of your total Health over 6 sec after being the victim of a critical strike."
+    },
+    {
+      "id": 16492,
+      "spellName": "Blood Craze",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Regenerates 6% of your total Health over 6 sec after being the victim of a critical strike."
+    },
+    {
+      "id": 12318,
+      "spellName": "Improved Battle Shout",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power bonus of your Battle Shout by 5%."
+    },
+    {
+      "id": 12857,
+      "spellName": "Improved Battle Shout",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power bonus of your Battle Shout by 10%."
+    },
+    {
+      "id": 12858,
+      "spellName": "Improved Battle Shout",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power bonus of your Battle Shout by 15%."
+    },
+    {
+      "id": 12860,
+      "spellName": "Improved Battle Shout",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power bonus of your Battle Shout by 20%."
+    },
+    {
+      "id": 12861,
+      "spellName": "Improved Battle Shout",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the melee attack power bonus of your Battle Shout by 25%."
+    },
+    {
+      "id": 23584,
+      "spellName": "Dual Wield Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage done by your offhand weapon by 5%."
+    },
+    {
+      "id": 23585,
+      "spellName": "Dual Wield Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage done by your offhand weapon by 10%."
+    },
+    {
+      "id": 23586,
+      "spellName": "Dual Wield Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage done by your offhand weapon by 15%."
+    },
+    {
+      "id": 23587,
+      "spellName": "Dual Wield Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage done by your offhand weapon by 20%."
+    },
+    {
+      "id": 23588,
+      "spellName": "Dual Wield Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the damage done by your offhand weapon by 25%."
+    },
+    {
+      "id": 20502,
+      "spellName": "Improved Execute",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the Rage cost of your Execute ability by 2."
+    },
+    {
+      "id": 20503,
+      "spellName": "Improved Execute",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the Rage cost of your Execute ability by 4."
+    },
+    {
+      "id": 12317,
+      "spellName": "Enrage",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 5% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+    },
+    {
+      "id": 13045,
+      "spellName": "Enrage",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 10% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+    },
+    {
+      "id": 13046,
+      "spellName": "Enrage",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 15% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+    },
+    {
+      "id": 13047,
+      "spellName": "Enrage",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 20% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+    },
+    {
+      "id": 13048,
+      "spellName": "Enrage",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Gives you a 25% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+    },
+    {
+      "id": 12862,
+      "spellName": "Improved Slam",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Decreases the casting time of your Slam ability by 0.1 sec and the damage caused by 5%."
+    },
+    {
+      "id": 12330,
+      "spellName": "Improved Slam",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Decreases the casting time of your Slam ability by 0.2 sec and the damage caused by 10%."
+    },
+    {
+      "id": 20497,
+      "spellName": "Improved Slam",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Decreases the casting time of your Slam ability by 0.3 sec and the damage caused by 15%."
+    },
+    {
+      "id": 20498,
+      "spellName": "Improved Slam",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Decreases the casting time of your Slam ability by 0.4 sec and the damage caused by 20%."
+    },
+    {
+      "id": 20499,
+      "spellName": "Improved Slam",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Decreases the casting time of your Slam ability by 0.5 sec and the damage caused by 25%."
+    },
+    {
+      "id": 12328,
+      "spellName": "Death Wish",
+      "spellRank": 0,
+      "resourceCost": "10 Rage",
+      "cooldown": "3 min",
+      "castTime": "Instant",
+      "requirements":["Requires Warrior"],
+      "tooltip":"When activated, increases your physical damage by 20% and makes you immune to Fear effects, but lowers your armor and all resistances by 20%. Lasts 30 sec."
+    },
+    {
+      "id": 20504,
+      "spellName": "Improved Intercept",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cooldown of your Intercept ability by 5 sec."
+    },
+    {
+      "id": 20505,
+      "spellName": "Improved Intercept",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Reduces the cooldown of your Intercept ability by 10 sec."
+    },
+    {
+      "id": 20500,
+      "spellName": "Improved Berserker Rage",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"The Berserker Rage ability will generate 5 rage when used."
+    },
+    {
+      "id": 20501,
+      "spellName": "Improved Berserker Rage",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"The Berserker Rage ability will generate 10 rage when used."
+    },
+    {
+      "id": 12319,
+      "spellName":"Flurry",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike."
+    },
+    {
+      "id": 12971,
+      "spellName":"Flurry",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike."
+    },
+    {
+      "id": 12972,
+      "spellName":"Flurry",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike."
+    },
+    {
+      "id": 12973,
+      "spellName":"Flurry",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike."
+    },
+    {
+      "id": 12974,
+      "spellName":"Flurry",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your attack speed by 30% for your next 3 swings after dealing a melee critical strike."
+    },
+    {
+      "id": 23881,
+      "spellName":"Bloodthirst",
+      "spellRank": 1,
+      "resourceCost": "30 Rage",
+      "cooldown": "6 sec",
+      "castTime": "Instant",
+      "range":"Melee Range",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Instantly attack the target causing damage equal to 45% of your attack power. In addition, the next 5 successful melee attacks will restore 10 health. This effect lasts 8 sec."
+    },
+    {
+      "id": 12298,
+      "spellName":"Shield Specialization",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to block attacks with a shield by 1% and has a 20% chance to generate 1 rage when a block occurs."
+    },
+    {
+      "id": 12724,
+      "spellName":"Shield Specialization",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to block attacks with a shield by 2% and has a 40% chance to generate 1 rage when a block occurs."
+    },
+    {
+      "id": 12725,
+      "spellName":"Shield Specialization",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to block attacks with a shield by 3% and has a 60% chance to generate 1 rage when a block occurs."
+    },
+    {
+      "id": 12726,
+      "spellName":"Shield Specialization",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to block attacks with a shield by 4% and has a 80% chance to generate 1 rage when a block occurs."
+    },
+    {
+      "id": 12727,
+      "spellName":"Shield Specialization",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to block attacks with a shield by 5% and has a 100% chance to generate 1 rage when a block occurs."
+    },
+    {
+      "id": 12297,
+      "spellName":"Anticipation",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Defense skill by 2."
+    },
+    {
+      "id": 12750,
+      "spellName":"Anticipation",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Defense skill by 4."
+    },
+    {
+      "id": 12751,
+      "spellName":"Anticipation",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Defense skill by 6."
+    },
+    {
+      "id": 12752,
+      "spellName":"Anticipation",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Defense skill by 8."
+    },
+    {
+      "id": 12753,
+      "spellName":"Anticipation",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your Defense skill by 10."
+    },
+    {
+      "id": 12301,
+      "spellName":"Improved Blood Rage",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the instant Rage generated by your Bloodrage ability by 2."
+    },
+    {
+      "id": 12818,
+      "spellName":"Improved Blood Rage",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases the instant Rage generated by your Bloodrage ability by 5."
+    },
+    {
+      "id": 12299,
+      "spellName":"Toughness",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your armor value from items by 2%."
+    },
+    {
+      "id": 12761,
+      "spellName":"Toughness",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your armor value from items by 4%."
+    },
+    {
+      "id": 12762,
+      "spellName":"Toughness",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your armor value from items by 6%."
+    },
+    {
+      "id": 12763,
+      "spellName":"Toughness",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your armor value from items by 8%."
+    },
+    {
+      "id": 12764,
+      "spellName":"Toughness",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your armor value from items by 10%."
+    },
+    {
+      "id": 12300,
+      "spellName":"Iron Will",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 3%."
+    },
+    {
+      "id": 12959,
+      "spellName":"Iron Will",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 6%."
+    },
+    {
+      "id": 12960,
+      "spellName":"Iron Will",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 9%."
+    },
+    {
+      "id": 12961,
+      "spellName":"Iron Will",
+      "spellRank": 4,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 12%."
+    },
+    {
+      "id": 12962,
+      "spellName":"Iron Will",
+      "spellRank": 5,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Warrior"],
+      "tooltip":"Increases your chance to resist Stun and Charm effects by an additional 15%."
+    }
+  ]
+}
