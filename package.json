@@ -1,14 +1,22 @@
 {
   "name": "custom_wow_talent_calculator",
+  "version": "0.9.0",
+  "repository": {
+    "url": "git+https://github.com/xena-dd/xena-dd.github.io.git"
+  },
+  "homepage": "http://xena-dd.github.io/xena-dd.github.io",
   "scripts": {
     "test": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^10.2.0",
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.4.1",
     "eslint": "^8.13.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "image-minimizer-webpack-plugin": "^3.8.2",
     "imagemin": "^8.0.1",
