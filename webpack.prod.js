@@ -16,21 +16,22 @@ module.exports = merge(common, {
       new ImageMinimizerPlugin({
         minimizer: {
           // Implementation
-          implementation: ImageMinimizerPlugin.imageminMinify,
+          implementation: ImageMinimizerPlugin.squooshMinify,
           // Options
           options: {
-            plugins: [
-              "imagemin-webp"
-            ],
           },
         },
         generator: [
           {
             // You can apply generator using `?as=webp`, you can use any name and provide more options, very important to add this in the image urls or it won't work!
             preset: "webp",
-            implementation: ImageMinimizerPlugin.imageminGenerate,
+            implementation: ImageMinimizerPlugin.squooshGenerate,
             options: {
-              plugins: ["imagemin-webp"],
+              encodeOptions: {
+                webp: {
+                  quality: 75,
+                },
+              }
             },
           },
         ],

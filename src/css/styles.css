@@ -772,39 +772,39 @@ h1{
 }
 
 .calculator-splash-inner [data-class-name="class1"] ins{
-    background-image: url("../img/icons/class_druid.jpg?as=webp");
+    background-image: url("../img/icons/class_druid.jpg?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class2"] ins{
-    background-image: url("../img/icons/class_hunter.png?as=webp");
+    background-image: url("../img/icons/class_hunter.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class3"] ins{
-    background-image: url("../img/icons/class_mage.png?as=webp");
+    background-image: url("../img/icons/class_mage.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class4"] ins{
-    background-image: url("../img/icons/class_paladin.jpg?as=webp");
+    background-image: url("../img/icons/class_paladin.jpg?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class5"] ins{
-    background-image: url("../img/icons/class_priest.png?as=webp");
+    background-image: url("../img/icons/class_priest.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class6"] ins{
-    background-image: url("../img/icons/class_rogue.png?as=webp");
+    background-image: url("../img/icons/class_rogue.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class7"] ins{
-    background-image: url("../img/icons/class_shaman.png?as=webp");
+    background-image: url("../img/icons/class_shaman.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class8"] ins{
-    background-image: url("../img/icons/class_warlock.png?as=webp");
+    background-image: url("../img/icons/class_warlock.png?as=webp&width=64&height=64");
 }
 
 .calculator-splash-inner [data-class-name="class9"] ins{
-    background-image: url("../img/icons/class_warrior.png?as=webp");
+    background-image: url("../img/icons/class_warrior.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="balance"] .calculator-tree-talents-background{
@@ -812,7 +812,7 @@ h1{
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="balance"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_nature_starfall.png?as=webp");
+    background-image: url("../img/icons/spell_nature_starfall.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="feral combat"] .calculator-tree-talents-background{
@@ -820,7 +820,7 @@ h1{
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="feral combat"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_racial_bearform.png?as=webp");
+    background-image: url("../img/icons/ability_racial_bearform.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-talents-background{
@@ -828,7 +828,7 @@ h1{
 }
 
 [data-class-name="druid"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_nature_healingtouch.png?as=webp");
+    background-image: url("../img/icons/spell_nature_healingtouch.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="beast mastery"] .calculator-tree-talents-background{
@@ -836,7 +836,7 @@ h1{
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="beast mastery"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_hunter_beasttaming.png?as=webp");
+    background-image: url("../img/icons/ability_hunter_beasttaming.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="marksmanship"] .calculator-tree-talents-background{
@@ -844,7 +844,7 @@ h1{
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="marksmanship"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_marksmanship.png?as=webp");
+    background-image: url("../img/icons/ability_marksmanship.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="survival"] .calculator-tree-talents-background{
@@ -852,7 +852,7 @@ h1{
 }
 
 [data-class-name="hunter"] .calculator-tree[data-spec-name="survival"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_hunter_swiftstrike.png?as=webp");
+    background-image: url("../img/icons/ability_hunter_swiftstrike.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="arcane"] .calculator-tree-talents-background{
@@ -860,7 +860,7 @@ h1{
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="arcane"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_magicalsentry.png?as=webp");
+    background-image: url("../img/icons/spell_holy_magicalsentry.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="fire"] .calculator-tree-talents-background{
@@ -868,7 +868,7 @@ h1{
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="fire"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_fire_firebolt02.png?as=webp");
+    background-image: url("../img/icons/spell_fire_firebolt02.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="frost"] .calculator-tree-talents-background{
@@ -876,7 +876,7 @@ h1{
 }
 
 [data-class-name="mage"] .calculator-tree[data-spec-name="frost"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_frost_frostbolt02.png?as=webp");
+    background-image: url("../img/icons/spell_frost_frostbolt02.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="holy"] .calculator-tree-talents-background{
@@ -884,7 +884,7 @@ h1{
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="holy"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_holybolt.png?as=webp");
+    background-image: url("../img/icons/spell_holy_holybolt.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="protection"] .calculator-tree-talents-background{
@@ -892,7 +892,7 @@ h1{
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="protection"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_devotionaura.png?as=webp");
+    background-image: url("../img/icons/spell_holy_devotionaura.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="retribution"] .calculator-tree-talents-background{
@@ -900,7 +900,7 @@ h1{
 }
 
 [data-class-name="paladin"] .calculator-tree[data-spec-name="retribution"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_auraoflight.png?as=webp");
+    background-image: url("../img/icons/spell_holy_auraoflight.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="discipline"] .calculator-tree-talents-background{
@@ -908,7 +908,7 @@ h1{
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="discipline"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_wordfortitude.png?as=webp");
+    background-image: url("../img/icons/spell_holy_wordfortitude.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="holy"] .calculator-tree-talents-background{
@@ -916,7 +916,7 @@ h1{
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="holy"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_holy_holybolt.png?as=webp");
+    background-image: url("../img/icons/spell_holy_holybolt.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="shadow"] .calculator-tree-talents-background{
@@ -924,7 +924,7 @@ h1{
 }
 
 [data-class-name="priest"] .calculator-tree[data-spec-name="shadow"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_shadow_shadowwordpain.png?as=webp");
+    background-image: url("../img/icons/spell_shadow_shadowwordpain.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="assassination"] .calculator-tree-talents-background{
@@ -932,7 +932,7 @@ h1{
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="assassination"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_rogue_eviscerate.png?as=webp");
+    background-image: url("../img/icons/ability_rogue_eviscerate.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="combat"] .calculator-tree-talents-background{
@@ -940,7 +940,7 @@ h1{
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="combat"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_backstab.png?as=webp");
+    background-image: url("../img/icons/ability_backstab.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="subtlety"] .calculator-tree-talents-background{
@@ -948,7 +948,7 @@ h1{
 }
 
 [data-class-name="rogue"] .calculator-tree[data-spec-name="subtlety"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_stealth.png?as=webp");
+    background-image: url("../img/icons/ability_stealth.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="elemental"] .calculator-tree-talents-background{
@@ -956,7 +956,7 @@ h1{
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="elemental"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_lightning_lightningbolt01.png?as=webp");
+    background-image: url("../img/icons/spell_lightning_lightningbolt01.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="enhancement"] .calculator-tree-talents-background{
@@ -964,7 +964,7 @@ h1{
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="enhancement"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_nature_lightningshield.png?as=webp");
+    background-image: url("../img/icons/spell_nature_lightningshield.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-talents-background{
@@ -972,7 +972,7 @@ h1{
 }
 
 [data-class-name="shaman"] .calculator-tree[data-spec-name="restoration"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_nature_magicimmunity.png?as=webp");
+    background-image: url("../img/icons/spell_nature_magicimmunity.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="affliction"] .calculator-tree-talents-background{
@@ -980,7 +980,7 @@ h1{
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="affliction"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_shadow_deathcoil.png?as=webp");
+    background-image: url("../img/icons/spell_shadow_deathcoil.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="demonology"] .calculator-tree-talents-background{
@@ -988,7 +988,7 @@ h1{
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="demonology"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_shadow_metamorphosis.png?as=webp");
+    background-image: url("../img/icons/spell_shadow_metamorphosis.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="destruction"] .calculator-tree-talents-background{
@@ -996,7 +996,7 @@ h1{
 }
 
 [data-class-name="warlock"] .calculator-tree[data-spec-name="destruction"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/spell_shadow_rainoffire.png?as=webp");
+    background-image: url("../img/icons/spell_shadow_rainoffire.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="arms"] .calculator-tree-talents-background{
@@ -1004,7 +1004,7 @@ h1{
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="arms"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_rogue_eviscerate.png?as=webp");
+    background-image: url("../img/icons/ability_rogue_eviscerate.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="fury"] .calculator-tree-talents-background{
@@ -1012,7 +1012,7 @@ h1{
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="fury"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/ability_warrior_innerrage.png?as=webp");
+    background-image: url("../img/icons/ability_warrior_innerrage.png?as=webp&width=64&height=64");
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="protection"] .calculator-tree-talents-background{
@@ -1020,7 +1020,7 @@ h1{
 }
 
 [data-class-name="warrior"] .calculator-tree[data-spec-name="protection"] .calculator-tree-header-icon{
-    background-image: url("../img/icons/inv_shield_06.png?as=webp");
+    background-image: url("../img/icons/inv_shield_06.png?as=webp&width=64&height=64");
 }
 
 .calculator-tree-reset{

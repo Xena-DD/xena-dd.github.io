@@ -202,7 +202,7 @@ function buildTalentTree() {
   //now build all the talents
   $.each(currentTalentTree["talentTree"], function (key, value) {
 
-    let icon = require("../img/" + value["icon"] + "?as=webp");
+    let icon = require("../img/" + value["icon"] + "?as=webp&width=64&height=64");
 
     let selector = "#s4 [data-tab='" + value["talentTab"] + "']" + " .calculator-tree-talents";
 
