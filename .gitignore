@@ -3,3 +3,4 @@
 /node_modules
 .eslintrc.js
 *.zip
+/src/Talent.json

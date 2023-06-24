@@ -1,13 +1,13 @@
-body{
+body {
     font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
     background-color: #0a0a0a;
 }
 
-h1,h2,h3{
+h1,h2,h3 {
     color: #9d9d9d;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #FFFFFF;
 }
@@ -31,11 +31,11 @@ h1{
     padding: 5px;
 }
 
-.calculator-splash-inner .icon:not(.selected){
+.calculator-splash-inner .icon:not(.selected) {
     opacity: 0.5;
 }
 
-.calculator-splash-inner .selected del{
+.calculator-splash-inner .selected del {
     border-color:rgba(255,209,0,0.8);
     opacity: 1 !important;
 }
@@ -47,7 +47,6 @@ h1{
     flex: 1 0 auto;
     margin: 0 3px;
     max-width: 328px;
-    width: 240px
 }
 
 .calculator-tree-box {
@@ -115,8 +114,6 @@ h1{
 .calculator-splash-inner .icon{
     cursor: pointer;
 }
-
-
 
 /* We need this to waterfall the z-indexes to make the arrows appear above and below the connected talents properly */
 .calculator-tree-talent[data-row="0"] {

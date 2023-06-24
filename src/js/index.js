@@ -1,4 +1,4 @@
-//TODO: clean up code to determine when things are undefined or an empty string in the JSON file, can be more consistent with this, can improve the whole data structure too, talents don't need to refer to spells, can just add it all in one object
+//TODO: clean up code to determine when things are undefined or an empty string in the JSON file, can be more consistent with this, can improve the whole data structure too, talents don't need to refer to spells although it also makes sense
 //TODO: update serrated blades tooltip per level: ref. https://github.com/hseager/Classic-WoW-Talent-Planner/issues/16
 //TODO: full functionality of building the tree, adding conditions, level required and path of talents you chose, export link..., although that's a bit overkill for our use case of just showcasing the new class design
 // because then we should kind of use a framework like react or vue
@@ -232,7 +232,7 @@ function buildTalentTree() {
       let id = value["prereqTalent1"];
       let startTalent = currentTalentTree["talentTree"].filter(e => e.id == id);
       let startRow = startTalent[0]["position"][0];
-      let startCol =startTalent[0]["position"][1];
+      let startCol = startTalent[0]["position"][1];
 
       let arrowLength;
       let arrowWidth;
@@ -293,7 +293,7 @@ function buildTalentTree() {
 function setEventHandlers() {
 
 
-  //Cant use .toggle() cause mouseover gets called twice on hover cause the html is scuffed
+  //Cant use .toggle() cause mouseover gets called twice on hover cause the html is scuffed?
   $(".calculator-tree-talent[data-name]").on("mouseover", function () {
 
     currentTalentSpellID = $(this).attr("data-id");
@@ -522,7 +522,7 @@ function resetTree(tab) {
     talentPointsSpent = talentPointsSpent + Number($(talent).attr("data-points"));
 
     $(talent).removeClass("calculator-at-max").attr("data-points","0").removeAttr("data-enabled");
-    $(talent).find("span").text("0/"+ maxTalentPoints)
+    $(talent).find("span").text("0/"+ maxTalentPoints);
   }
 
   switch (tab) {
@@ -542,7 +542,7 @@ function resetTree(tab) {
 
 function buildTooltip(id) {
 
-  let talent = currentTalentTree["talentSpells"].filter(e => e.id == id)
+  let talent = currentTalentTree["talentSpells"].filter(e => e.id == id);
 
   let talentName = talent[0]["spellName"];
   let talentRank = talent[0]["spellRank"];
@@ -551,7 +551,9 @@ function buildTooltip(id) {
   let talentResourceCost = talent[0]["resourceCost"];
   let talentCooldown = talent[0]["cooldown"];
   let talentCastTime = talent[0]["castTime"];
-  let talentRange = talent[0]["range"]
+  let talentRange = talent[0]["range"];
+
+  //Should try catch all this stuff, like what if we did by accident make some properties in the JSON a type that it never can be?
 
   //Talent id
   $(".tooltip-template").attr("id",id);
@@ -583,7 +585,7 @@ function buildTooltip(id) {
   $(".optional-row1").hide();
   $(".optional-row2").hide();
 
-  //Talent tooltip, we use .html here because sometimes we want to add <br> tags or &nbsp; in the string in the json file
+  //Talent tooltip, we use .html here because sometimes we want to add <br> tags or &nbsp; in the string in the JSON file
   $(".tooltip-template .tooltip-description").html(tooltip);
 
   //Clear previous tooltip stuff
@@ -615,16 +617,17 @@ function buildTooltip(id) {
       $(".tooltip-template .tooltip-resource-cost").text(talentRange);
     }
 
-
     $(".optional-row2").show();
+
     $(".tooltip-template .tooltip-cast-time").text(talentCastTime);
 
+    //Cooldown
     if(talentCooldown != "") {
       $(".optional-row2").show();
       $(".tooltip-template .tooltip-cooldown").text(talentCooldown + " cooldown");
     }
 
-    //Sometimes there's no resource cost and no range but it is a spell(e.g amplify curse)
+    //Sometimes there's no resource cost and no range but it is a spell(e.g Amplify Curse)
     if(talentResourceCost == "" && talentRange == undefined) {
       $(".optional-row1").hide();
     }

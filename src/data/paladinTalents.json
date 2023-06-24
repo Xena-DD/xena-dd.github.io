@@ -1646,7 +1646,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"All spell damage taken is reduced by 5% of your spell damage and 15% of all spell damage caused against you will be returned as Mana."
+      "tooltip":"All spell damage taken is reduced by 5% of your total spell damage and 15% of all spell damage caused against you will be returned as Mana."
     },
     {
       "id": 33045,
@@ -1656,7 +1656,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"All spell damage taken is reduced by 10% of your spell damage and 30% of all spell damage caused against you will be returned as Mana."
+      "tooltip":"All spell damage taken is reduced by 10% of your total spell damage and 30% of all spell damage caused against you will be returned as Mana."
     },
     {
       "id": 20196,
