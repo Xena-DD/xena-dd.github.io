@@ -1,6 +1,7 @@
 /debug.log
 /dist
 /node_modules
+/src/vid
 .eslintrc.js
 *.zip
 /src/Talent.json

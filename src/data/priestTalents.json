@@ -1170,7 +1170,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases your spell damage by 1% and the critical strike chance of your offensive spells by 2%."
+      "tooltip":"Increases your spell damage by 2% and the critical strike chance of your offensive spells by 2%."
     },
     {
       "id": 18548,
@@ -1180,7 +1180,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases your spell damage by 1% and the critical strike chance of your offensive spells by 3%."
+      "tooltip":"Increases your spell damage by 3% and the critical strike chance of your offensive spells by 3%."
     },
     {
       "id": 18549,
@@ -1190,7 +1190,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases your spell damage by 1% and the critical strike chance of your offensive spells by 4%."
+      "tooltip":"Increases your spell damage by 4% and the critical strike chance of your offensive spells by 4%."
     },
     {
       "id": 18550,
@@ -1200,7 +1200,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases your spell damage by 1% and the critical strike chance of your offensive spells by 5%."
+      "tooltip":"Increases your spell damage by 5% and the critical strike chance of your offensive spells by 5%."
     },
     {
       "id": 10060,
@@ -1541,7 +1541,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases the damage of your Smite and Holy Fire spells by 5%."
+      "tooltip":"Increases the damage of your Smite and Holy Fire spells by 5% and increases their critical strike damage bonus by 25%."
     },
     {
       "id": 15017,
@@ -1551,7 +1551,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases the damage of your Smite and Holy Fire spells by 10%."
+      "tooltip":"Increases the damage of your Smite and Holy Fire spells by 10% and increases their critical strike damage bonus by 50%."
     },
     {
       "id": 14911,
@@ -2104,7 +2104,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases the percentage healed by Vampiric Embrace by an additional 5% and makes Vampiric Embrace cause no threat."
+      "tooltip":"Increases the percentage healed by Vampiric Embrace by an additional 5% and makes its healing effect cause no threat."
     },
     {
       "id": 27840,
@@ -2114,7 +2114,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Priest"],
-      "tooltip":"Increases the percentage healed by Vampiric Embrace by an additional 10% and makes Vampiric Embrace cause no threat."
+      "tooltip":"Increases the percentage healed by Vampiric Embrace by an additional 10% and makes its healing effect cause no threat."
     },
     {
       "id": 15259,

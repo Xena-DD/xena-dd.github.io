@@ -473,6 +473,21 @@
       "prereqTalent1":6214
     },
     {
+      "id": 6218, 
+      "talentTab": 1,
+      "talentName": "Aggression",
+      "icon":"icons/ability_racial_avatar.png",
+      "position": [ 5, 2 ],
+      "maxTalentPoints": 3,
+      "spellRanks": {
+        "spellRank1": 18427,
+        "spellRank2": 18428,
+        "spellRank3": 18429,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
       "id": 6217, 
       "talentTab": 1,
       "talentName": "Adrenaline Rush",
@@ -1000,7 +1015,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects."
+      "tooltip":"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects. In addition, grants the periodic damage from your Deadly Poison a 4% chance to critically hit for 100% increased damage."
     },
     {
       "id": 16514,
@@ -1010,7 +1025,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects."
+      "tooltip":"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects. In addition, grants the periodic damage from your Deadly Poison a 8% chance to critically hit for 100% increased damage."
     },
     {
       "id": 16515,
@@ -1020,7 +1035,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects."
+      "tooltip":"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects. In addition, grants the periodic damage from your Deadly Poison a 12% chance to critically hit for 100% increased damage."
     },
     {
       "id": 16719,
@@ -1030,7 +1045,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects."
+      "tooltip":"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects. <br> In addition, grants the periodic damage from your Deadly Poison a 16% chance to critically hit for 100% increased damage."
     },
     {
       "id": 16720,
@@ -1040,7 +1055,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
+      "tooltip":"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects. In addition, grants the periodic damage from your Deadly Poison a 20% chance to critically hit for 100% increased damage."
     },
     {
       "id": 14113,
@@ -1724,6 +1739,36 @@
       "tooltip":"Increases your skill with Sword, Fist and Dagger weapons by 5."
     },
     {
+      "id": 18427,
+      "spellName": "Aggression",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Rogue"],
+      "tooltip":"Increases the damage of your Sinister Strike and Eviscerate abilities by 2%."
+    },
+    {
+      "id": 18428,
+      "spellName": "Aggression",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Rogue"],
+      "tooltip":"Increases the damage of your Sinister Strike and Eviscerate abilities by 4%."
+    },
+    {
+      "id": 18429,
+      "spellName": "Aggression",
+      "spellRank": 3,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Rogue"],
+      "tooltip":"Increases the damage of your Sinister Strike and Eviscerate abilities by 6%."
+    },
+    {
       "id": 13750,
       "spellName": "Adrenaline Rush",
       "spellRank": 0,
@@ -1841,7 +1886,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%."
+      "tooltip":"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.<br>In addition, your Lockpicking skill is increased by 5 and the chance your Pickpocket spell gets resisted is reduced."
     },
     {
       "id": 30893,
@@ -1851,7 +1896,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Rogue"],
-      "tooltip":"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+      "tooltip":"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%.<br>In addition, your Lockpicking skill is increased by 10 and the chance your Pickpocket spell gets resisted is reduced. More effective than Sleight of Hand (Rank 1)."
     },
     {
       "id": 13981,
@@ -2174,7 +2219,7 @@
       "castTime": "Instant",
       "range": "20 yd range",
       "requirements":["Requires Rogue", "Requires Stealth"],
-      "tooltip":"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
+      "tooltip":"When used, adds 2 combo points to your target. After using a finishing move with those combo points, your damage is increased by 20% for 12 sec. You must add to or use those combo points within 10 sec or the combo points are lost."
     }
   ]
 }

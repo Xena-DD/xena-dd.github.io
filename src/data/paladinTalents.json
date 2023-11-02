@@ -185,7 +185,7 @@
     {
       "id": 4113,
       "talentTab": 0,
-      "talentName": "Lasting Judgement",
+      "talentName": "Sanctified Judgement",
       "icon":"icons/spell_holy_healingaura.png",
       "position": [ 4, 2 ],
       "maxTalentPoints": 3,
@@ -458,7 +458,7 @@
       "id": 4216,
       "talentTab": 1,
       "talentName": "One-Handed Weapon Specialization",
-      "icon":"icons/inv_sword_20.png",
+      "icon":"icons/inv_sword_25.png",
       "position": [ 5, 2 ],
       "maxTalentPoints": 5,
       "spellRanks": {
@@ -979,10 +979,10 @@
       "spellName": "Consecration",
       "spellRank": 1,
       "resourceCost": "135 Mana",
-      "cooldown": "8 sec",
+      "cooldown": "12 sec",
       "castTime": "Instant",
       "requirements":["Requires Paladin"],
-      "tooltip":"Consecrates the land beneath Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area."
+      "tooltip":"Consecrates the land beneath Paladin, doing 96 Holy damage over 12 sec to enemies who enter the area."
     },
     {
       "id": 20234,
@@ -1106,33 +1106,33 @@
     },
     {
       "id": 20359,
-      "spellName": "Lasting Judgement",
+      "spellName": "Sanctified Judgement",
       "spellRank": 1,
       "resourceCost": "",
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 10 sec."
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 10 sec and increases their effectiveness by 7%."
     },
     {
       "id": 20360,
-      "spellName": "Lasting Judgement",
+      "spellName": "Sanctified Judgement",
       "spellRank": 2,
       "resourceCost": "",
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 20 sec."
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 20 sec and increases their effectiveness by 14%."
     },
     {
       "id": 20361,
-      "spellName": "Lasting Judgement",
+      "spellName": "Sanctified Judgement",
       "spellRank": 3,
       "resourceCost": "",
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 30 sec."
+      "tooltip":"Increases the duration of your Judgement of Light and Judgement of Wisdom by 30 sec and increases their effectiveness by 20%."
     },
     {
       "id": 5923,
@@ -1646,7 +1646,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"All spell damage taken is reduced by 5% of your total spell damage and 15% of all spell damage caused against you will be returned as Mana."
+      "tooltip":"All spell damage taken is absorbed by 5% of your total Intellect and will be returned as Mana instead of damage."
     },
     {
       "id": 33045,
@@ -1656,7 +1656,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"All spell damage taken is reduced by 10% of your total spell damage and 30% of all spell damage caused against you will be returned as Mana."
+      "tooltip":"All spell damage taken is absorbed by 10% of your total Intellect and will be returned as Mana instead of damage."
     },
     {
       "id": 20196,
@@ -1826,7 +1826,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Decreases the cooldown of your Judgement spell by 1 sec."
+      "tooltip":"Decreases the cooldown of your Judgement spell by 1 sec and your Judgement spell returns 25% of the mana cost of the judged seal."
     },
     {
       "id": 25957,
@@ -1836,7 +1836,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Decreases the cooldown of your Judgement spell by 2 sec."
+      "tooltip":"Decreases the cooldown of your Judgement spell by 2 sec and your Judgement spell returns 50% of the mana cost of the judged seal."
     },
     {
       "id": 20335,
@@ -2116,7 +2116,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Gives you a 3% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+      "tooltip":"Gives you a 6% bonus to Physical and Holy damage you deal for 10 sec after dealing a critical strike from a weapon swing, spell, or ability."
     },
     {
       "id": 20056,
@@ -2126,7 +2126,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Gives you a 6% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+      "tooltip":"Gives you a 12% bonus to Physical and Holy damage you deal for 10 sec after dealing a critical strike from a weapon swing, spell, or ability."
     },
     {
       "id": 20057,
@@ -2136,7 +2136,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Gives you a 9% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+      "tooltip":"Gives you a 18% bonus to Physical and Holy damage you deal for 10 sec after dealing a critical strike from a weapon swing, spell, or ability."
     },
     {
       "id": 20058,
@@ -2146,7 +2146,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Gives you a 12% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+      "tooltip":"Gives you a 24% bonus to Physical and Holy damage you deal for 10 sec after dealing a critical strike from a weapon swing, spell, or ability."
     },
     {
       "id": 20059,
@@ -2156,7 +2156,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Paladin"],
-      "tooltip":"Gives you a 15% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
+      "tooltip":"Gives you a 30% bonus to Physical and Holy damage you deal for 10 sec after dealing a critical strike from a weapon swing, spell, or ability."
     },
     {
       "id": 20066,
@@ -2174,11 +2174,11 @@
       "spellName": "Crusader Strike",
       "spellRank": 1,
       "resourceCost": "130 Mana",
-      "cooldown": "6 sec",
+      "cooldown": "8 sec",
       "castTime": "Instant",
       "range": "Melee Range",
       "requirements":["Requires Paladin"],
-      "tooltip":"An instant strike that causes 110% weapon damage and increases the Holy Damage taken by the target by up to 9 per Crusader Strike. Can be applied up to 5 times."
+      "tooltip":"An instant strike that causes 110% weapon damage and increases the Holy Damage taken by the target by up to 9 per Crusader Strike. Can be applied up to 5 times. Lasts 30 sec."
     }
   ]
 }

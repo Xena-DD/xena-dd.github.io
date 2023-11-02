@@ -1215,7 +1215,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Mage"],
-      "tooltip":"After channeling your Arcane Missiles spell, your spell damage is increased by 5, stacking up 5 times, this effect lasts 8 sec. At 10 stacks, your power overflows, increasing your spell power by 25 and your spell critical strike chance by 3%, this effect lasts 15 sec."
+      "tooltip":"After channeling your Arcane Missiles spell, your spell damage is increased by 5, stacking up 5 times, this effect lasts 8 sec. At 5 stacks, your power overflows, consuming the stacks and increasing your spell power by 25 and your spell critical strike chance by 3%, this effect lasts 15 sec."
     },
     {
       "id": 33040,
@@ -1225,7 +1225,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Mage"],
-      "tooltip":"After channeling your Arcane Missiles spell, your spell damage is increased by 10, stacking up 5 times, this effect lasts 8 sec. At 10 stacks, your power overflows, increasing your spell power by 50 and your spell critical strike chance by 6%, this effect lasts 15 sec."
+      "tooltip":"After channeling your Arcane Missiles spell, your spell damage is increased by 10, stacking up 5 times, this effect lasts 8 sec. At 5 stacks, your power overflows, consuming the stacks and increasing your spell power by 50 and your spell critical strike chance by 6%, this effect lasts 15 sec."
     },
     {
       "id": 15058,

@@ -81,7 +81,7 @@
       "talentTab": 0,
       "talentName": "Enfeebling Shadows",
       "icon":"icons/spell_shadow_chilltouch.png",
-      "position": [ 1, 3 ],
+      "position": [ 0, 0 ],
       "maxTalentPoints": 2,
       "spellRanks": {
         "spellRank1": 33027,
@@ -704,13 +704,13 @@
       "talentName": "Devastation",
       "icon":"icons/spell_fire_flameshock.png",
       "position": [ 4, 2 ],
-      "maxTalentPoints": 5,
+      "maxTalentPoints": 3,
       "spellRanks": {
         "spellRank1": 18130,
         "spellRank2": 18131,
         "spellRank3": 18132,
-        "spellRank4": 18133,
-        "spellRank5" : 18134
+        "spellRank4": 0,
+        "spellRank5" : 0
         },
       "prereqTalent1":2307
     },
@@ -942,7 +942,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the chance your Shadow Bolt spell can resist on targets afflicted by Curse of Weakness or Curse of Shadows by 2%."
+      "tooltip":"Reduces the chance your Shadow Bolt spell can resist on targets afflicted by Curse of Weakness or Curse of Shadows by 3%."
     },
     {
       "id": 33028,
@@ -952,7 +952,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the chance your Shadow Bolt spell can resist on targets afflicted by Curse of Weakness or Curse of Shadows by 4%."
+      "tooltip":"Reduces the chance your Shadow Bolt spell can resist on targets afflicted by Curse of Weakness or Curse of Shadows by 6%."
     },
     {
       "id": 18827,
@@ -962,7 +962,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Curse of Agony by 2%."
+      "tooltip":"Increases the damage done by your Curse of Agony by 5%."
     },
     {
       "id": 18829,
@@ -972,7 +972,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Curse of Agony by 4%."
+      "tooltip":"Increases the damage done by your Curse of Agony by 10%."
     },
     {
       "id": 18830,
@@ -982,7 +982,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Curse of Agony by 6%."
+      "tooltip":"Increases the damage done by your Curse of Agony by 15%."
     },
     {
       "id": 17783,
@@ -1082,7 +1082,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
+      "tooltip":"Gives your Corruption and Drain Life spells a 3% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
     },
     {
       "id": 18095,
@@ -1092,7 +1092,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
+      "tooltip":"Gives your Corruption and Drain Life spells a 6% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
     },
     {
       "id": 33029,
@@ -1240,11 +1240,11 @@
       "id": 33032,
       "spellName": "Death and Decay",
       "spellRank": 1,
-      "resourceCost": "45% base Mana",
+      "resourceCost": "315 Mana",
       "cooldown": "5 min",
       "castTime": "Channeled (8 sec cast)",
       "requirements":["Requires Warlock"],
-      "tooltip":"Death covers the target area, dealing 740 Shadow damage over 8 sec. Damage is increased by 100% against targets that are below 10% health. Returns 50 Mana for each target killed that yields experience."
+      "tooltip":"Death covers the target area, dealing 740 Shadow damage over 8 sec. Damage is increased by 100% against targets that are below 10% health. Returns 50 Mana for each target killed that yields experience or honor."
     },
     {
       "id": 18692,
@@ -1404,7 +1404,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 3%."
+      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 3%."
     },
     {
       "id": 18743,
@@ -1414,7 +1414,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 6%."
+      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 6%."
     },
     {
       "id": 18744,
@@ -1424,7 +1424,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 9%."
+      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 9%."
     },
     {
       "id": 18745,
@@ -1434,7 +1434,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 12%."
+      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 12%."
     },
     {
       "id": 18746,
@@ -1444,7 +1444,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 15%."
+      "tooltip":"Increases the maximum Mana of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 15%."
     },
     {
       "id": 18754,
@@ -1494,7 +1494,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 3%."
+      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 3%."
     },
     {
       "id": 18749,
@@ -1504,7 +1504,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 6%."
+      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 6%."
     },
     {
       "id": 18750,
@@ -1514,7 +1514,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 9%."
+      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 9%."
     },
     {
       "id": 18751,
@@ -1524,7 +1524,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 12%."
+      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 12%."
     },
     {
       "id": 18752,
@@ -1534,7 +1534,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 15%."
+      "tooltip":"Increases the maximum Health of your Imp, Voidwalker, Succubus, Enslaved demon and Felhunter by 15%."
     },
     {
       "id": 18128,
@@ -1584,7 +1584,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Voidwalker, Succubus and Felhunter's melee attacks by 4%."
+      "tooltip":"Increases the damage done by your Voidwalker, Succubus, Enslaved demon and Felhunter's melee attacks by 4%."
     },
     {
       "id": 18770,
@@ -1594,7 +1594,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Voidwalker, Succubus and Felhunter's melee attacks by 8%."
+      "tooltip":"Increases the damage done by your Voidwalker, Succubus, Enslaved demon and Felhunter's melee attacks by 8%."
     },
     {
       "id": 18771,
@@ -1604,7 +1604,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Voidwalker, Succubus and Felhunter's melee attacks by 12%."
+      "tooltip":"Increases the damage done by your Voidwalker, Succubus, Enslaved demon and Felhunter's melee attacks by 12%."
     },
     {
       "id": 18772,
@@ -1614,7 +1614,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Voidwalker, Succubus and Felhunter's melee attacks by 16%."
+      "tooltip":"Increases the damage done by your Voidwalker, Succubus, Enslaved demon and Felhunter's melee attacks by 16%."
     },
     {
       "id": 18773,
@@ -1624,7 +1624,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the damage done by your Voidwalker, Succubus and Felhunter's melee attacks by 20%."
+      "tooltip":"Increases the damage done by your Voidwalker, Succubus, Enslaved demon and Felhunter's melee attacks by 20%."
     },
     {
       "id": 18821,
@@ -1634,7 +1634,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 2%, its duration by 10 min and reduces the resist chance by 2%."
+      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 2%, increases its duration by 20 min and reduces the resist chance by 2%."
     },
     {
       "id": 18822,
@@ -1644,7 +1644,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 4%, its duration by 20 min and reduces the resist chance by 4%."
+      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 4%, increases its duration by 40 min and reduces the resist chance by 4%."
     },
     {
       "id": 18823,
@@ -1654,7 +1654,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 6%, its duration by 30 min and reduces the resist chance by 6%."
+      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 6%, increases its duration by 60 min and reduces the resist chance by 6%."
     },
     {
       "id": 18824,
@@ -1664,7 +1664,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 8%, its duration by 40 min and reduces the resist chance by 8%."
+      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 8%, increases its duration by 80 min and reduces the resist chance by 8%."
     },
     {
       "id": 18825,
@@ -1674,7 +1674,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 10%, its duration by 50 min and reduces the resist chance by 10%."
+      "tooltip":"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 10%, increases its duration by 100 min and reduces the resist chance by 10%."
     },
     {
       "id": 18788,
@@ -1684,7 +1684,7 @@
       "cooldown": "",
       "castTime": "Instant",
       "requirements":["Requires Warlock"],
-      "tooltip":"When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min. The effect is canceled if any Demon is summoned.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of total Health every 4 sec.<br><br>Succubus: Increases your Shadow damage by 15%.<br><br>Felhunter: Restores 2% of total Mana every 4 sec."
+      "tooltip":"When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min. The effect is canceled if any Demon is summoned or enslaved.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of total Health every 4 sec.<br><br>Succubus: Increases your Shadow damage by 20%.<br><br>Felhunter: Restores 2% of total Mana every 4 sec."
     },
     {
       "id": 18767,
@@ -1764,7 +1764,7 @@
       "cooldown": "",
       "castTime": "Instant",
       "requirements":["Requires Warlock"],
-      "tooltip":"When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 3% more damage. Lasts as long as the demon is active."
+      "tooltip":"When active, 15% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, Enslaved demon or Felhunter demon instead. In addition, both the demon and master will inflict 5% more damage. Lasts as long as the demon is active."
     },
     {
       "id": 17793,
@@ -1924,7 +1924,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Destruction spells a 2% chance to daze the target for 5 sec."
+      "tooltip":"Gives your direct damaging Destruction spells a 2% chance to daze the target for 5 sec and deal 2% of the damage done over 5 sec."
     },
     {
       "id": 18120,
@@ -1934,7 +1934,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Destruction spells a 4% chance to daze the target for 5 sec."
+      "tooltip":"Gives your direct damaging Destruction spells a 4% chance to daze the target for 5 sec and deal 4% of the damage done over 5 sec."
     },
     {
       "id": 18121,
@@ -1944,7 +1944,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Destruction spells a 6% chance to daze the target for 5 sec."
+      "tooltip":"Gives your direct damaging Destruction spells a 6% chance to daze the target for 5 sec and deal 6% of the damage done over 5 sec."
     },
     {
       "id": 18122,
@@ -1954,7 +1954,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Destruction spells a 8% chance to daze the target for 5 sec."
+      "tooltip":"Gives your direct damaging Destruction spells a 8% chance to daze the target for 5 sec and deal 8% of the damage done over 5 sec."
     },
     {
       "id": 18123,
@@ -1964,7 +1964,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Destruction spells a 10% chance to daze the target for 5 sec."
+      "tooltip":"Gives your direct damaging Destruction spells a 10% chance to daze the target for 5 sec and deal 10% of the damage done over 5 sec."
     },
     {
       "id": 18126,
@@ -2025,7 +2025,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives you a 35% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell."
+      "tooltip":"Gives you a 35% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell. In addition, reduces your target's chance to resist your Fire spells by 4%."
     },
     {
       "id": 18136,
@@ -2035,7 +2035,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives you a 70% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell."
+      "tooltip":"Gives you a 70% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell. In addition, reduces your target's chance to resist your Fire spells by 8%."
     },
     {
       "id": 17917,
@@ -2065,7 +2065,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 2% and reduces the threat generated by 10%."
+      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 2%. In addition, each Searing Pain cast increases the power of the next, up to 3 times, casting any other spell removes the effect."
     },
     {
       "id": 17929,
@@ -2075,7 +2075,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 4% and reduces the threat generated by 20%."
+      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 4%. In addition, each Searing Pain cast increases the power of the next, up to 3 times, casting any other spell removes the effect."
     },
     {
       "id": 17930,
@@ -2085,7 +2085,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 6% and reduces the threat generated by 30%."
+      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 6%. In addition, each Searing Pain cast increases the power of the next, up to 3 times, casting any other spell removes the effect."
     },
     {
       "id": 17931,
@@ -2095,7 +2095,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 8% and reduces the threat generated by 40%."
+      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 8%. In addition, each Searing Pain cast increases the power of the next, up to 3 times, casting any other spell removes the effect."
     },
     {
       "id": 17932,
@@ -2105,7 +2105,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 10% and reduces the threat generated by 50%."
+      "tooltip":"Increases the critical strike chance of your Searing Pain spell by 10%. In addition, each Searing Pain cast increases the power of the next, up to 3 times, casting any other spell removes the effect."
     },
     {
       "id": 18096,
@@ -2115,7 +2115,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 sec."
+      "tooltip":"Gives your Rain of Fire and Soul Fire spells a 15% chance to stun the target for 3 sec and deal additional damage to 3 nearby targets."
     },
     {
       "id": 18073,
@@ -2125,7 +2125,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 26% chance to stun the target for 3 sec."
+      "tooltip":"Gives your Rain of Fire and Soul Fire spells a 30% chance to stun the target for 3 sec and deal additional damage to 3 nearby targets."
     },
     {
       "id": 17815,
@@ -2185,7 +2185,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Destruction spells by 1%."
+      "tooltip":"Increases the critical strike chance of your Destruction spells by 2%."
     },
     {
       "id": 18131,
@@ -2195,7 +2195,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Destruction spells by 2%."
+      "tooltip":"Increases the critical strike chance of your Destruction spells by 4%."
     },
     {
       "id": 18132,
@@ -2205,27 +2205,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Destruction spells by 3%."
-    },
-    {
-      "id": 18133,
-      "spellName": "Devastation",
-      "spellRank": 4,
-      "resourceCost": "",
-      "cooldown": "",
-      "castTime": "",
-      "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Destruction spells by 4%."
-    },
-    {
-      "id": 18134,
-      "spellName": "Devastation",
-      "spellRank": 5,
-      "resourceCost": "",
-      "cooldown": "",
-      "castTime": "",
-      "requirements":["Requires Warlock"],
-      "tooltip":"Increases the critical strike chance of your Destruction spells by 5%."
+      "tooltip":"Increases the critical strike chance of your Destruction spells by 6%."
     },
     {
       "id": 33033,
@@ -2296,7 +2276,7 @@
       "castTime": "Instant",
       "range":"30 yd range",
       "requirements":["Requires Warlock"],
-      "tooltip":"Ignites a target that is already afflicted by Immolate, dealing 249 to 316 Fire damage and consuming the Immolate spell."
+      "tooltip":"Ignites a target that is already afflicted by your Immolate, dealing 249 to 316 Fire damage and consuming your Immolate spell."
     }
   ]
 }

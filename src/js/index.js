@@ -3,6 +3,7 @@
 //TODO: full functionality of building the tree, adding conditions, level required and path of talents you chose, export link..., although that's a bit overkill for our use case of just showcasing the new class design
 // because then we should kind of use a framework like react or vue
 
+
 import druidTalents from "../data/druidTalents.json";
 import hunterTalents from "../data/hunterTalents.json";
 import mageTalents from "../data/mageTalents.json";
@@ -12,6 +13,9 @@ import rogueTalents from "../data/rogueTalents.json";
 import shamanTalents from "../data/shamanTalents.json";
 import warlockTalents from "../data/warlockTalents.json";
 import warriorTalents from "../data/warriorTalents.json";
+
+//import video_2 from "../vid/Footage/Stromgarde-looped.mp4";
+//$("video").attr("src",video_2);
 
 import "../css/styles.css";
 import $ from "jquery";
@@ -69,8 +73,8 @@ function initialize() {
     let leftPosition;
 
     boundingRect = $(this)[0].getBoundingClientRect();
-    topPosition = boundingRect.top - 20;
-    leftPosition = boundingRect.left + 42;
+    topPosition = boundingRect.top - 16;
+    leftPosition = boundingRect.left + 34;
 
     showMiniTooltip(className,topPosition,leftPosition);
   });
@@ -292,9 +296,16 @@ function buildTalentTree() {
 
 function setEventHandlers() {
 
-
   //Cant use .toggle() cause mouseover gets called twice on hover cause the html is scuffed?
   $(".calculator-tree-talent[data-name]").on("mouseover", function () {
+
+    //If there is no data-id cause we removed it by resetting the whole tree, add it again, initially this is set when the whole trees are built
+    if($(this).attr("data-id") == null){
+      let id =  $(this).attr("id").replace("talent-","");
+      let talent = currentTalentTree["talentTree"].filter(e => e.id == id);
+      let spellID =talent[0]["spellRanks"]["spellRank1"];
+      $(this).attr("data-id",spellID);
+    }
 
     currentTalentSpellID = $(this).attr("data-id");
 
@@ -309,8 +320,10 @@ function setEventHandlers() {
 
     let tooltip = $("#" + currentTalentSpellID);
 
-    currentTalentTopPosition = boundingRect.top - tooltip.height() - 9;
-    currentTalentLeftPosition = boundingRect.left + iconWidth - 2;
+    //currentTalentTopPosition = boundingRect.top - tooltip.height() - 9;
+    currentTalentTopPosition = boundingRect.top - tooltip.height() - 62;
+    currentTalentLeftPosition = boundingRect.left + iconWidth - 9;
+    //console.log(tooltip.height() + " - " + tooltip.width());
 
     showTooltip(currentTalentSpellID, currentTalentTopPosition, currentTalentLeftPosition);
 
@@ -537,6 +550,9 @@ function resetTree(tab) {
     break;
   }
 
+  //Remove all data-id's in the tab to reset the tooltips, they get rebuild when you hover over them again
+  $("[data-tab=" + tab +"]" + " .calculator-tree-talent").removeAttr("data-id");
+
   totalTalentPoints = totalTalentPoints - talentPointsSpent;
 }
 
@@ -553,7 +569,7 @@ function buildTooltip(id) {
   let talentCastTime = talent[0]["castTime"];
   let talentRange = talent[0]["range"];
 
-  //Should try catch all this stuff, like what if we did by accident make some properties in the JSON a type that it never can be?
+  //Should try catch all this stuff, like what if we did by accident make some properties in the JSON a type that it never can be or if an ID doesn't exist
 
   //Talent id
   $(".tooltip-template").attr("id",id);
@@ -637,10 +653,9 @@ function buildTooltip(id) {
 function showTooltip(id, topPosition, leftPosition) {
 
   let tooltip = $("#" + id);
-
+  //We use visibility and not display:none or else it won't have a height/width which we need to calculate the position 
   $(tooltip).css("top", topPosition).css("left", leftPosition).css("visibility", "visible");
   $(tooltip).show();
-
 }
 
 function showMiniTooltip(className, topPosition, leftPosition){

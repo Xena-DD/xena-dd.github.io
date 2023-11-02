@@ -651,6 +651,21 @@
         }
     },
     {
+      "id": 2316,
+      "talentTab": 2,
+      "talentName": "Close Combat Expertise",
+      "icon":"icons/inv_sword_11.png",
+      "position": [ 4, 0 ],
+      "maxTalentPoints": 2,
+      "spellRanks": {
+        "spellRank1": 35000,
+        "spellRank2": 35001,
+        "spellRank3": 0,
+        "spellRank4": 0,
+        "spellRank5" : 0
+        }
+    },
+    {
       "id": 2313,
       "talentTab": 2,
       "talentName": "Counterattack",
@@ -1630,7 +1645,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Hunter"],
-      "tooltip":"Increases your damage done against targets standing 20 yd or further away by 3%."
+      "tooltip":"Increases the damage from your ranged attacks against targets standing 25 yd or further away by 3%."
     },
     {
       "id": 33035,
@@ -1640,7 +1655,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Hunter"],
-      "tooltip":"Increases your damage done against targets standing 20 yd or further away by 6%."
+      "tooltip":"Increases the damage from your ranged attacks against targets standing 25 yd or further away by 6%."
     },
     {
       "id": 33036,
@@ -1650,7 +1665,7 @@
       "cooldown": "",
       "castTime": "",
       "requirements":["Requires Hunter"],
-      "tooltip":"Increases your damage done against targets standing 20 yd or further away by 9%."
+      "tooltip":"Increases the damage from your ranged attacks against targets standing 25 yd or further away by 9%."
     },
     {
       "id": 19507,
@@ -2102,6 +2117,26 @@
       "range": "Melee Range",
       "requirements":["Requires Hunter"],
       "tooltip":"A strike that becomes active after parrying an opponent's attack. This attack deals 40 damage and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried."
+    },
+    {
+      "id": 35000,
+      "spellName": "Close Combat Expertise",
+      "spellRank": 1,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Hunter"],
+      "tooltip":"Increases your melee attack power by 10% of your total Agility."
+    },
+    {
+      "id": 35001,
+      "spellName": "Close Combat Expertise",
+      "spellRank": 2,
+      "resourceCost": "",
+      "cooldown": "",
+      "castTime": "",
+      "requirements":["Requires Hunter"],
+      "tooltip":"Increases your melee attack power by 20% of your total Agility."
     },
     {
       "id": 19168,
